@@ -1,24 +1,266 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Love Game View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoveGameViewController" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="LoveGameViewController" customModule="The_Love_Game" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Love Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yvS-LG-JqS">
+                                <rect key="frame" x="29" y="54" width="356" height="97"/>
+                                <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="83"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="rb8-gm-LkQ">
+                                <rect key="frame" x="28" y="817" width="358" height="31"/>
+                                <color key="tintColor" red="1" green="0.48387444481945596" blue="0.46133979128845415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="naughtyLevelSliderMove:" destination="BYZ-38-t0r" eventType="valueChanged" id="aXk-Zc-W9s"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Naughty Level: Mild" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mpc-w0-RuG">
+                                <rect key="frame" x="10" y="790.5" width="394" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                <color key="textColor" red="0.32039181472081213" green="0.057344931683961653" blue="0.10869375391874474" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap a button, see the response!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odS-0I-34w">
+                                <rect key="frame" x="20" y="123" width="374" height="28"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Nu-sK-D8w">
+                                <rect key="frame" x="20" y="410.5" width="374" height="75"/>
+                                <color key="backgroundColor" red="0.82676894430051817" green="0.14306577642609911" blue="0.26192861615138796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="HJP-I1-nrq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="52"/>
+                                <state key="normal" title="Sexy Sentence">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="sexySentenceBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iXW-jn-FzT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqF-J3-o2F">
+                                <rect key="frame" x="20" y="497.5" width="374" height="75"/>
+                                <color key="backgroundColor" red="0.82676894430000003" green="0.14306577640000001" blue="0.26192861620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="Moh-Uu-N5K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="44"/>
+                                <state key="normal" title="Fuzzy Dice">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="fuzzyDiceBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cV2-qP-09g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4MX-TO-J56">
+                                <rect key="frame" x="169.5" y="692.5" width="75" height="75.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="Fa2-bA-Myq"/>
+                                    <constraint firstAttribute="width" constant="75" id="yU3-ky-6sY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="tintColor" red="0.57951300760000002" green="0.13478636529999999" blue="0.11307603820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" backgroundImage="gear" catalog="system"/>
+                                <connections>
+                                    <action selector="settingsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="630-Kd-Ueq"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lH6-S7-8CL">
+                                <rect key="frame" x="20" y="243" width="373" height="150"/>
+                                <color key="backgroundColor" red="0.94247895077720212" green="0.51813256147804732" blue="0.57146586274331346" alpha="0.80394476232394363" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="USi-eC-43c"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yvS-LG-JqS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1ii-WC-Cz7"/>
+                            <constraint firstItem="mpc-w0-RuG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1qq-3h-82a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mpc-w0-RuG" secondAttribute="trailing" constant="10" id="2r7-Xr-MpZ"/>
+                            <constraint firstItem="rb8-gm-LkQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="4cD-FI-KnR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Nu-sK-D8w" secondAttribute="trailing" constant="20" id="7Im-xM-z30"/>
+                            <constraint firstItem="yvS-LG-JqS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="7Lt-dY-6qG"/>
+                            <constraint firstItem="lqF-J3-o2F" firstAttribute="top" secondItem="3Nu-sK-D8w" secondAttribute="bottom" constant="12" id="9wn-jJ-3vu"/>
+                            <constraint firstItem="rb8-gm-LkQ" firstAttribute="top" secondItem="mpc-w0-RuG" secondAttribute="bottom" constant="18" id="AxH-uH-hS8"/>
+                            <constraint firstItem="odS-0I-34w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="B0g-QL-u1e"/>
+                            <constraint firstItem="odS-0I-34w" firstAttribute="top" secondItem="yvS-LG-JqS" secondAttribute="bottom" constant="-28" id="F6E-Wv-mxd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rb8-gm-LkQ" secondAttribute="bottom" constant="15" id="Fxi-nV-ZME"/>
+                            <constraint firstItem="4MX-TO-J56" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="M3j-QL-rqt"/>
+                            <constraint firstItem="lH6-S7-8CL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Q58-uc-l2F"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lqF-J3-o2F" secondAttribute="trailing" constant="20" id="R6n-eQ-vvU"/>
+                            <constraint firstItem="mpc-w0-RuG" firstAttribute="top" secondItem="4MX-TO-J56" secondAttribute="bottom" constant="8" id="Uao-1s-Qdx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rb8-gm-LkQ" secondAttribute="trailing" constant="30" id="UyO-eQ-WSK"/>
+                            <constraint firstItem="3Nu-sK-D8w" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WBK-XP-ofR"/>
+                            <constraint firstItem="3Nu-sK-D8w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Wm2-Ji-q6i"/>
+                            <constraint firstItem="mpc-w0-RuG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="aeB-Sa-Z6k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="odS-0I-34w" secondAttribute="trailing" constant="20" id="eDT-Ze-tSL"/>
+                            <constraint firstItem="lqF-J3-o2F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eI3-q4-uKN"/>
+                            <constraint firstItem="3Nu-sK-D8w" firstAttribute="top" secondItem="lH6-S7-8CL" secondAttribute="bottom" constant="12" id="fjx-wL-wPJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lH6-S7-8CL" secondAttribute="trailing" constant="20" id="oA1-H7-aec"/>
+                            <constraint firstItem="lqF-J3-o2F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="zFh-aG-LxG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="oO8-N2-JLq">
+                        <barButtonItem key="backBarButtonItem" title="The Love Game" id="i2D-VH-ocZ"/>
+                    </navigationItem>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="fuzzyDiceBtn" destination="lqF-J3-o2F" id="hoA-7D-oTd"/>
+                        <outlet property="naughtyLevelLbl" destination="mpc-w0-RuG" id="6gT-45-DIp"/>
+                        <outlet property="naughtyLevelSlider" destination="rb8-gm-LkQ" id="gAc-6a-WBm"/>
+                        <outlet property="sexySentenceBtn" destination="3Nu-sK-D8w" id="PU1-mm-Kbs"/>
+                        <outlet property="textBox" destination="lH6-S7-8CL" id="oZo-Ca-Bz8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="797.10144927536237" y="24.776785714285712"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="FoG-TY-MiN">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="rYS-PT-P2W" customClass="SettingsViewController" customModule="The_Love_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xcL-pT-v1k">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLc-4O-xyb">
+                                <rect key="frame" x="30" y="138" width="354" height="51"/>
+                                <color key="backgroundColor" red="0.81535532990000004" green="0.14593536269999999" blue="0.27661140989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="33"/>
+                                <state key="normal" title="Edit Word List">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="adk-Qa-lVZ" kind="show" id="GwI-99-dO1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VOj-S6-xmH">
+                                <rect key="frame" x="30" y="214" width="354" height="51"/>
+                                <color key="backgroundColor" red="0.81535532990000004" green="0.14593536269999999" blue="0.27661140989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="33"/>
+                                <state key="normal" title="Arrange Sentence">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WVP-br-kzu" firstAttribute="trailing" secondItem="VOj-S6-xmH" secondAttribute="trailing" constant="30" id="05I-Az-uKh"/>
+                            <constraint firstItem="WVP-br-kzu" firstAttribute="trailing" secondItem="rLc-4O-xyb" secondAttribute="trailing" constant="30" id="Lab-Lm-pkP"/>
+                            <constraint firstItem="VOj-S6-xmH" firstAttribute="leading" secondItem="WVP-br-kzu" secondAttribute="leading" constant="30" id="XE2-Lx-QM3"/>
+                            <constraint firstItem="rLc-4O-xyb" firstAttribute="top" secondItem="WVP-br-kzu" secondAttribute="top" constant="50" id="t8m-YI-d7G"/>
+                            <constraint firstItem="rLc-4O-xyb" firstAttribute="leading" secondItem="WVP-br-kzu" secondAttribute="leading" constant="30" id="z5L-er-xI7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WVP-br-kzu"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Settings" id="Ahc-FZ-ILe">
+                        <barButtonItem key="leftBarButtonItem" systemItem="reply" id="QcW-Ni-8Ef">
+                            <color key="tintColor" red="0.86767325129999995" green="0.106381134" blue="0.093802893940000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="backBtnTapped:" destination="rYS-PT-P2W" id="W5T-ka-csm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6mi-5R-o4n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2721.739130434783" y="24.776785714285712"/>
+        </scene>
+        <!--Love Words Table View Controller-->
+        <scene sceneID="4Pe-8Z-2Gx">
+            <objects>
+                <tableViewController id="adk-Qa-lVZ" customClass="LoveWordsTableViewController" customModule="The_Love_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="0gj-au-GIv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="textEntityCell" rowHeight="57" id="SNb-P6-ADR" customClass="TextEntityTableViewCell" customModule="The_Love_Game" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="57"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SNb-P6-ADR" id="trH-oU-Tm9">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="57"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sexy Word" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cce-vU-wIE">
+                                            <rect key="frame" x="20" y="11" width="374" height="35"/>
+                                            <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="19"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottomMargin" secondItem="cce-vU-wIE" secondAttribute="bottom" id="AT5-wJ-JCS"/>
+                                        <constraint firstItem="cce-vU-wIE" firstAttribute="trailing" secondItem="trH-oU-Tm9" secondAttribute="trailingMargin" id="fwE-gH-Oc2"/>
+                                        <constraint firstItem="cce-vU-wIE" firstAttribute="leading" secondItem="trH-oU-Tm9" secondAttribute="leadingMargin" id="sbz-ms-lp7"/>
+                                        <constraint firstItem="cce-vU-wIE" firstAttribute="top" secondItem="trH-oU-Tm9" secondAttribute="topMargin" id="uRs-wo-0ca"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="1" green="0.73800093686949642" blue="0.78930242702100928" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="textLabel" destination="cce-vU-wIE" id="GbF-97-cP3"/>
+                                    <outlet property="wordLabel" destination="cce-vU-wIE" id="xn7-jA-CZU"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="adk-Qa-lVZ" id="sZv-Hb-DY5"/>
+                            <outlet property="delegate" destination="adk-Qa-lVZ" id="eGU-gs-iRR"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="QH4-fj-bwr"/>
+                    <connections>
+                        <outlet property="textEntityTableView" destination="0gj-au-GIv" id="bcx-d1-ACw"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2EK-lb-Nze" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3479.7101449275365" y="24.776785714285712"/>
+        </scene>
+        <!--Settings Navigation Controller-->
+        <scene sceneID="M5K-jg-a5X">
+            <objects>
+                <navigationController storyboardIdentifier="SettingsNavigationController" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="J9n-90-tRY" customClass="SettingsNavigationController" customModule="The_Love_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hAB-7G-JLf">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="rYS-PT-P2W" kind="relationship" relationship="rootViewController" id="hz4-SZ-PJN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LXB-JV-FlV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1896" y="25"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="gear" catalog="system" width="128" height="119"/>
+    </resources>
 </document>

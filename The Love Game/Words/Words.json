@@ -1,0 +1,3054 @@
+{
+  "Parts": [
+    {
+      "text": "Belly Button",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Leg",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Toes",
+      "naughtyLevel": "1",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Lips",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Face",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hand",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Feet",
+      "naughtyLevel": "1",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Foot",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Arms",
+      "naughtyLevel": "1",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Arm",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Finger",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Knee",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Shoulder",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Rump",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Fun Bags",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "Nuts",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 0
+    },
+    {
+      "text": "Titties",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Weiner",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Cheeks",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Belly",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Rear End",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Mouth",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Lips",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Boobies",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "Pecker",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Hooters",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "Knockers",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "Hams",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Booty",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Jugs",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "Package",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Banana",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Buns",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Muffin",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 1
+    },
+    {
+      "text": "Taco",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 1
+    },
+    {
+      "text": "Balloons",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Gams",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "Mammaries",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "Honkers",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "Boob",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hindquarters",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Buttocks",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Butt",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Pickle",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Schlong",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Hole",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Holes",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Titties",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "Pubes",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Weiner",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Vagina",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 1
+    },
+    {
+      "text": "Balls",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 0
+    },
+    {
+      "text": "Ass",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Gooch",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Nipples",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Sack",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Taint",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Folds",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "Jugs",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "Pipe",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Dangle",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Donk",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Muff",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 1
+    },
+    {
+      "text": "Beaver",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 1
+    },
+    {
+      "text": "Areolas",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Shaft",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Hot Dog",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Arse",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Boob",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Tit",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Nip",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Rump",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hiney",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Butthole",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Whispering Eye",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 1
+    },
+    {
+      "text": "Schlong",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Vag",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Holes",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "Anus",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Asshole",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Titties",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "Pubes",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Scrotum",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Taint",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Folds",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "Colon",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Peen",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Knob",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Muff",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 1
+    },
+    {
+      "text": "Beaver",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 1
+    },
+    {
+      "text": "Poon",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 1
+    },
+    {
+      "text": "Flaps",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "Micropenis",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Butthole",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Pussy",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 1
+    },
+    {
+      "text": "Anal Cavity",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Kidneys",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Whispering Eye",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 1
+    },
+    {
+      "text": "Shit",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Cum",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Rectum",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    }
+  ],
+  "Adjectives": [
+    {
+      "text": "Smooth",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Large",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "cute",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "fabulous",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "terrific",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "All-American",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Sweaty",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Moist",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Damp",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Pink",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Smooth",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Large",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Tiny",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hot",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "rather large",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Perky",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Wrinkly",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "luscious",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "cute",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "fabulous",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "gay",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Spicy",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Meaty",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Sweaty",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Veiney",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Moist",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Erect",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Damp",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hairy",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Barely Legal",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Thicc",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hot",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hideous",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Lopsided",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Flaccid",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Microscopic",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Perky",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Engorged",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Luscious",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "gay",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "hairless",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "nasty",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Steamy",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Spicy",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Meaty",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Sweaty",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Veiney",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Moist",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Erect",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Soggy",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Damp",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hairy",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Barely legal",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hideous",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Lopsided",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Flaccid",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Microscopic",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Engorged",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Inflatable",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Wrinkly",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "extremely gay",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Stinky",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Steamy",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "motherfucking",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    }
+  ],
+  "Adverbs": [
+    {
+      "text": "lovingly",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "tenderly",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "gingerly",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "wholeheartedly",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "quickly",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "tenderly",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "awkwardly",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "ceremoniously",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "sensually",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "briskly",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "wholeheartedly",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "firmly",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "violently",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "violently",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "aggressively",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "awkwardly",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "brutally",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "recklessly",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "savagely",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "ceremoniously",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "sensually",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "vigorously",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "weirdly",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "gay-ly",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    }
+  ],
+  "Actions": [
+    {
+      "text": "Kiss",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Tickle",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Touch",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Poke",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Smooch",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hug",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Pat",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Rub",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Kiss",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Spank",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Tease",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Squeeze",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Fondle",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Examine",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Lick",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Touch",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Caress",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Grab",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Bite",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Sniff",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Grope",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Diddle",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Whip Out",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Spank",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Smash",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Suck on",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Pound",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Rail",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Squeeze",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Fondle",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Examine",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Lick",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Wrestle",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Sniff",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Suck",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Yank on",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Sit on",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Spread",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Eat",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Smooch",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Slam",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Honk",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Probe",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Slap",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Stroke",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Butter",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hammer",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Pump",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Bless",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Shag",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Glaze",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Whip Out",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Lather up",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Dine Upon",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Make Out With",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Smoke",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Harm",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Pound",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Suck on",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Choke on",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Suck",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Munch on",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Violate",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Fist",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Scream at",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hammer",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Body Slam",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Spackle",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Chug",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Splooge on",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Jack Up",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Fart on",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Jack Up",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Lather up",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Teabag",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Dine Upon",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Fuck",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Tongue Punch",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "69",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Fuck Up",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Dumpster Dive In",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    }
+  ],
+  "Beginnings": [
+    {
+      "text": "I want to",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Let me",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "When will you",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "How can I",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "How do you",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Please",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Go ahead and",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "You should",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Would you",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Why don't you",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Tonight, I'm gonna",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Will you",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Why didn't you",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "I want to",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Let me",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "When will you",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "How can I",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "How do you",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "How about we",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Please",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "I'm gonna need you to",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Go ahead and",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hey baby,",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Don't ever",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Would you",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Why don't you",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "How long will it take you to",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Drop everything and",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Tonight, I'm gonna",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Come on.",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Will you",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Don't forget to",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "If you don't mind,",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Everybody",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Will you please not",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Don't",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Why didn't you",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Quick!",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Stop what you're doing and",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "I want to",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "For the love of God",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Let me",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "When will you",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "How can I",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "How do you",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "How about we",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Please",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "I'm gonna need you to",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Go ahead and",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hey baby,",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Don't ever",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Stop stalling and",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "It would be hot if you",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Why don't you",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "How long will it take you to",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Drop everything and",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Tonight, I'm gonna",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "You never said you wouldn't",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Come on.",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Don't forget to",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Make yourself useful and",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "If you don't mind,",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Everybody",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Por favor,",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Will you please not",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Why didn't you",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Quick!",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Stop what you're doing and",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "I want to",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "For the love of God",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Let me",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "When will you",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "How do you",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "How about we",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Please",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "I'm gonna need you to",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Go ahead and",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hey baby,",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Don't ever",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Stop stalling and",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Would you",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "It would be hot if you",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Why don't you",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "How long will it take you to",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Drop everything and",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Tonight, I'm gonna",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Videotape me while I",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "You never said you wouldn't",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Come on.",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hold my hand while I",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Will you",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Don't forget to",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Make yourself useful and",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "If you don't mind,",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Everybody",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Por favor,",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Cut the shenanigans and",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Will you please not",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Hey Siri,",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Why didn't you",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Quick!",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Stop what you're doing and",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Keep Calm and",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "After you're done making my sandwich.",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Roses are red, violets are blue,",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    }
+  ],
+  "Pronouns": [
+    {
+      "text": "my",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "your",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "this",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "his",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "that",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "her",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 1
+    },
+    {
+      "text": "my",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "your",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "this",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "his",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "that",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "her",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 1
+    },
+    {
+      "text": "my",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "your",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "this",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "his",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "that",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "her",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 1
+    },
+    {
+      "text": "dat",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "dis",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "my",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "your",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "this",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "his",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "that",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "her",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 1
+    },
+    {
+      "text": "dat",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "dis",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "muh",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "our",
+      "naughtyLevel": "1",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "those",
+      "naughtyLevel": "1",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "these",
+      "naughtyLevel": "1",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "them",
+      "naughtyLevel": "1",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "their",
+      "naughtyLevel": "1",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "my",
+      "naughtyLevel": "1",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "your",
+      "naughtyLevel": "1",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "his",
+      "naughtyLevel": "1",
+      "plural": true,
+      "gender": 0
+    },
+    {
+      "text": "her",
+      "naughtyLevel": "1",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "our",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "those",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "these",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "them",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "their",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "my",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "your",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "his",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 0
+    },
+    {
+      "text": "her",
+      "naughtyLevel": "2",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "our",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "those",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "these",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "them",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "their",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "my",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "your",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "his",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 0
+    },
+    {
+      "text": "her",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "muh",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "dem",
+      "naughtyLevel": "3",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "our",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "those",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "these",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "them",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "their",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "my",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "your",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "his",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 0
+    },
+    {
+      "text": "her",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "muh",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "dem",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "deez",
+      "naughtyLevel": "4",
+      "plural": true,
+      "gender": 2
+    }
+  ],
+  "Punctuation": [
+    {
+      "text": "!",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "...",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "!",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "...",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "!!!",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "!?",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": ". Please...",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": ". If you don't mind.",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "!",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "...",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "!!!",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "!?",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": ". Please...",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": ". But don't tell anyone.",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": ". Just sayin'.",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": ". I'll be waiting.",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": ". If you don't mind.",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "!",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "...",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "!!!",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "!?",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": ". Please...",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": ". But don't tell anyone.",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": ". Just sayin'.",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": ". I'll be waiting.",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": ". If you don't mind.",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    }
+  ],
+  "Interjections": [
+    {
+      "text": "Before you go...",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "If it's all the same to you,",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "I almost forgot!",
+      "naughtyLevel": "1",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Yo.",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Wait...",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Oh snap.",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "I'm just gonna put this out there.",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Before you go...",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "If it's all the same to you,",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "It's my birthday.",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "I almost forgot!",
+      "naughtyLevel": "2",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Yo.",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Wait...",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Oh snap.",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "I do declare...",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Check it.",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "I'm just gonna put this out there.",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Before you go...",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "If it's all the same to you,",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "It's my birthday.",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Damn dawg.",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "I almost forgot!",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "In the Beginning...",
+      "naughtyLevel": "3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Yo.",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Wait...",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Oh snap.",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "I do declare...",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Check it.",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "I'm just gonna put this out there.",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Before you go...",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "If it's all the same to you,",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "It's my birthday.",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Damn dawg.",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "I almost forgot!",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "In the Beginning...",
+      "naughtyLevel": "4",
+      "plural": false,
+      "gender": 2
+    }
+  ]
+}

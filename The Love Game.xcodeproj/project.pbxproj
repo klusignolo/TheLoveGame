@@ -3,29 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		AE3A124C24F5E4E300D80E01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A124B24F5E4E300D80E01 /* AppDelegate.swift */; };
 		AE3A124E24F5E4E300D80E01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A124D24F5E4E300D80E01 /* SceneDelegate.swift */; };
-		AE3A125024F5E4E300D80E01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A124F24F5E4E300D80E01 /* ViewController.swift */; };
+		AE3A125024F5E4E300D80E01 /* LoveGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A124F24F5E4E300D80E01 /* LoveGameViewController.swift */; };
 		AE3A125324F5E4E300D80E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3A125124F5E4E300D80E01 /* Main.storyboard */; };
 		AE3A125624F5E4E300D80E01 /* The_Love_Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE3A125424F5E4E300D80E01 /* The_Love_Game.xcdatamodeld */; };
 		AE3A125824F5E4E400D80E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3A125724F5E4E400D80E01 /* Assets.xcassets */; };
 		AE3A125B24F5E4E400D80E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3A125924F5E4E400D80E01 /* LaunchScreen.storyboard */; };
+		AEBE64F324F6B570007B9E98 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = AEBE64F224F6B570007B9E98 /* SwiftyJSON */; };
+		AEBE64F624F6F052007B9E98 /* LoveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE64F524F6F052007B9E98 /* LoveController.swift */; };
+		AEBE64F824F6F072007B9E98 /* DBUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE64F724F6F072007B9E98 /* DBUtility.swift */; };
+		AEBE64FC24F7F409007B9E98 /* Words.json in Resources */ = {isa = PBXBuildFile; fileRef = AEBE64FB24F7F409007B9E98 /* Words.json */; };
+		AEBE650124F805A4007B9E98 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE650024F805A4007B9E98 /* SettingsViewController.swift */; };
+		AEBE650324F805F2007B9E98 /* LoveWordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE650224F805F2007B9E98 /* LoveWordsTableViewController.swift */; };
+		AEBE650524F81B11007B9E98 /* SettingsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE650424F81B11007B9E98 /* SettingsNavigationController.swift */; };
+		AEBE650824F86C3A007B9E98 /* TextEntityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE650724F86C3A007B9E98 /* TextEntityTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE3A124824F5E4E300D80E01 /* The Love Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Love Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3A124B24F5E4E300D80E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE3A124D24F5E4E300D80E01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE3A124F24F5E4E300D80E01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE3A124F24F5E4E300D80E01 /* LoveGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveGameViewController.swift; sourceTree = "<group>"; };
 		AE3A125224F5E4E300D80E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE3A125524F5E4E300D80E01 /* The_Love_Game.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = The_Love_Game.xcdatamodel; sourceTree = "<group>"; };
 		AE3A125724F5E4E400D80E01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE3A125A24F5E4E400D80E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3A125C24F5E4E400D80E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBE64F524F6F052007B9E98 /* LoveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveController.swift; sourceTree = "<group>"; };
+		AEBE64F724F6F072007B9E98 /* DBUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBUtility.swift; sourceTree = "<group>"; };
+		AEBE64FB24F7F409007B9E98 /* Words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Words.json; sourceTree = "<group>"; };
+		AEBE64FD24F7F858007B9E98 /* The_Love_Game 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "The_Love_Game 2.xcdatamodel"; sourceTree = "<group>"; };
+		AEBE650024F805A4007B9E98 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AEBE650224F805F2007B9E98 /* LoveWordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveWordsTableViewController.swift; sourceTree = "<group>"; };
+		AEBE650424F81B11007B9E98 /* SettingsNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsNavigationController.swift; sourceTree = "<group>"; };
+		AEBE650724F86C3A007B9E98 /* TextEntityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEntityTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEBE64F324F6B570007B9E98 /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,14 +77,53 @@
 			children = (
 				AE3A124B24F5E4E300D80E01 /* AppDelegate.swift */,
 				AE3A124D24F5E4E300D80E01 /* SceneDelegate.swift */,
-				AE3A124F24F5E4E300D80E01 /* ViewController.swift */,
+				AE3A126624F5F37E00D80E01 /* Words */,
+				AE3A126324F5F23700D80E01 /* Utility */,
+				AEBE64F424F6F01F007B9E98 /* Controllers */,
+				AE3A126224F5F21600D80E01 /* ViewControllers */,
 				AE3A125124F5E4E300D80E01 /* Main.storyboard */,
-				AE3A125724F5E4E400D80E01 /* Assets.xcassets */,
 				AE3A125924F5E4E400D80E01 /* LaunchScreen.storyboard */,
 				AE3A125C24F5E4E400D80E01 /* Info.plist */,
+				AE3A125724F5E4E400D80E01 /* Assets.xcassets */,
 				AE3A125424F5E4E300D80E01 /* The_Love_Game.xcdatamodeld */,
+				AEBE650724F86C3A007B9E98 /* TextEntityTableViewCell.swift */,
 			);
 			path = "The Love Game";
+			sourceTree = "<group>";
+		};
+		AE3A126224F5F21600D80E01 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE3A124F24F5E4E300D80E01 /* LoveGameViewController.swift */,
+				AEBE650024F805A4007B9E98 /* SettingsViewController.swift */,
+				AEBE650224F805F2007B9E98 /* LoveWordsTableViewController.swift */,
+				AEBE650424F81B11007B9E98 /* SettingsNavigationController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AE3A126324F5F23700D80E01 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AEBE64F724F6F072007B9E98 /* DBUtility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		AE3A126624F5F37E00D80E01 /* Words */ = {
+			isa = PBXGroup;
+			children = (
+				AEBE64FB24F7F409007B9E98 /* Words.json */,
+			);
+			path = Words;
+			sourceTree = "<group>";
+		};
+		AEBE64F424F6F01F007B9E98 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEBE64F524F6F052007B9E98 /* LoveController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +142,9 @@
 			dependencies = (
 			);
 			name = "The Love Game";
+			packageProductDependencies = (
+				AEBE64F224F6B570007B9E98 /* SwiftyJSON */,
+			);
 			productName = "The Love Game";
 			productReference = AE3A124824F5E4E300D80E01 /* The Love Game.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +173,9 @@
 				Base,
 			);
 			mainGroup = AE3A123F24F5E4E300D80E01;
+			packageReferences = (
+				AEBE64F124F6B570007B9E98 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = AE3A124924F5E4E300D80E01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE3A125B24F5E4E400D80E01 /* LaunchScreen.storyboard in Resources */,
+				AEBE64FC24F7F409007B9E98 /* Words.json in Resources */,
 				AE3A125824F5E4E400D80E01 /* Assets.xcassets in Resources */,
 				AE3A125324F5E4E300D80E01 /* Main.storyboard in Resources */,
 			);
@@ -141,9 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE3A125024F5E4E300D80E01 /* ViewController.swift in Sources */,
+				AE3A125024F5E4E300D80E01 /* LoveGameViewController.swift in Sources */,
+				AEBE650824F86C3A007B9E98 /* TextEntityTableViewCell.swift in Sources */,
+				AEBE64F624F6F052007B9E98 /* LoveController.swift in Sources */,
+				AEBE650124F805A4007B9E98 /* SettingsViewController.swift in Sources */,
 				AE3A125624F5E4E300D80E01 /* The_Love_Game.xcdatamodeld in Sources */,
 				AE3A124C24F5E4E300D80E01 /* AppDelegate.swift in Sources */,
+				AEBE650524F81B11007B9E98 /* SettingsNavigationController.swift in Sources */,
+				AEBE650324F805F2007B9E98 /* LoveWordsTableViewController.swift in Sources */,
+				AEBE64F824F6F072007B9E98 /* DBUtility.swift in Sources */,
 				AE3A124E24F5E4E300D80E01 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,10 +412,30 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		AEBE64F124F6B570007B9E98 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AEBE64F224F6B570007B9E98 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEBE64F124F6B570007B9E98 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 /* Begin XCVersionGroup section */
 		AE3A125424F5E4E300D80E01 /* The_Love_Game.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				AEBE64FD24F7F858007B9E98 /* The_Love_Game 2.xcdatamodel */,
 				AE3A125524F5E4E300D80E01 /* The_Love_Game.xcdatamodel */,
 			);
 			currentVersion = AE3A125524F5E4E300D80E01 /* The_Love_Game.xcdatamodel */;
