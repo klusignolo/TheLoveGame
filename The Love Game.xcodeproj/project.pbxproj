@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE0FDDBF250EF876002D5AEA /* FuzzyDiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0FDDBE250EF876002D5AEA /* FuzzyDiceViewController.swift */; };
+		AE0FDDC1250EF882002D5AEA /* SexySentenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0FDDC0250EF882002D5AEA /* SexySentenceViewController.swift */; };
+		AE0FDDC6250F07B2002D5AEA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0FDDC5250F07B2002D5AEA /* Extensions.swift */; };
 		AE3A124C24F5E4E300D80E01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A124B24F5E4E300D80E01 /* AppDelegate.swift */; };
 		AE3A124E24F5E4E300D80E01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A124D24F5E4E300D80E01 /* SceneDelegate.swift */; };
 		AE3A125024F5E4E300D80E01 /* LoveGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3A124F24F5E4E300D80E01 /* LoveGameViewController.swift */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE0FDDBE250EF876002D5AEA /* FuzzyDiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuzzyDiceViewController.swift; sourceTree = "<group>"; };
+		AE0FDDC0250EF882002D5AEA /* SexySentenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexySentenceViewController.swift; sourceTree = "<group>"; };
+		AE0FDDC5250F07B2002D5AEA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		AE3A124824F5E4E300D80E01 /* The Love Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Love Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3A124B24F5E4E300D80E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE3A124D24F5E4E300D80E01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,10 +100,12 @@
 		AE3A126224F5F21600D80E01 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				AE3A124F24F5E4E300D80E01 /* LoveGameViewController.swift */,
 				AEBE650024F805A4007B9E98 /* SettingsViewController.swift */,
 				AEBE650224F805F2007B9E98 /* LoveWordsTableViewController.swift */,
 				AEBE650424F81B11007B9E98 /* SettingsNavigationController.swift */,
+				AE3A124F24F5E4E300D80E01 /* LoveGameViewController.swift */,
+				AE0FDDBE250EF876002D5AEA /* FuzzyDiceViewController.swift */,
+				AE0FDDC0250EF882002D5AEA /* SexySentenceViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -106,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				AEBE64F724F6F072007B9E98 /* DBUtility.swift */,
+				AE0FDDC5250F07B2002D5AEA /* Extensions.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -208,12 +217,15 @@
 				AEBE650824F86C3A007B9E98 /* TextEntityTableViewCell.swift in Sources */,
 				AEBE64F624F6F052007B9E98 /* LoveController.swift in Sources */,
 				AEBE650124F805A4007B9E98 /* SettingsViewController.swift in Sources */,
+				AE0FDDC1250EF882002D5AEA /* SexySentenceViewController.swift in Sources */,
 				AE3A125624F5E4E300D80E01 /* The_Love_Game.xcdatamodeld in Sources */,
 				AE3A124C24F5E4E300D80E01 /* AppDelegate.swift in Sources */,
 				AEBE650524F81B11007B9E98 /* SettingsNavigationController.swift in Sources */,
+				AE0FDDC6250F07B2002D5AEA /* Extensions.swift in Sources */,
 				AEBE650324F805F2007B9E98 /* LoveWordsTableViewController.swift in Sources */,
 				AEBE64F824F6F072007B9E98 /* DBUtility.swift in Sources */,
 				AE3A124E24F5E4E300D80E01 /* SceneDelegate.swift in Sources */,
+				AE0FDDBF250EF876002D5AEA /* FuzzyDiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

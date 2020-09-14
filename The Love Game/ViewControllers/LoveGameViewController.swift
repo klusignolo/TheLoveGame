@@ -10,36 +10,45 @@ import UIKit
 
 class LoveGameViewController: UIViewController {
     
-    var loveController = LoveController()
+    var loveController: LoveController!
     
-    @IBOutlet weak var textBox: UITextView!
-    @IBOutlet weak var sexySentenceBtn: UIButton!
-    @IBOutlet weak var fuzzyDiceBtn: UIButton!
     @IBOutlet weak var naughtyLevelSlider: UISlider!
     @IBOutlet weak var naughtyLevelLbl: UILabel!
+    @IBOutlet weak var sexySentenceView: UIView!
+    @IBOutlet weak var fuzzyDiceView: UIView!
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         seedData()
-        
-        let userNaughtyLvl = UserDefaults.standard.double(forKey: "naughtyLevel")
-        naughtyLevelSlider.value = Float(userNaughtyLvl)
+        setupUI()
+    }
+    
+    func setupUI() {
+        presentSexySentenceView()
+        loveController = LoveController()
+        let userNaughtyLvl = DBUtility.getNaughtyLevel()
+        self.naughtyLevelSlider.value = Float(userNaughtyLvl)
         setNaughtyLevel()
     }
-
-    @IBAction func sexySentenceBtnTapped(_ sender: Any) {
-    }
-    @IBAction func fuzzyDiceBtnTapped(_ sender: Any) {
-        textBox.text = loveController.getFuzzyDice()
-    }
+    
     @IBAction func naughtyLevelSliderMove(_ sender: Any) {
         setNaughtyLevel()
     }
+    
     @IBAction func settingsTapped(_ sender: Any) {
-        navigateToSettings()
+        //navigateToSettings()
     }
     
+    @IBAction func segmentIndexChanged(_ sender: Any) {
+        switch segmentedControl.selectedSegmentIndex {
+        case 0:
+            presentSexySentenceView()
+        case 1: presentFuzzyDiceView()
+        default:
+            break
+        }
+    }
     private func setNaughtyLevel() {
         let selectedValue = naughtyLevelSlider.value
         var naughtyInt = 1
@@ -55,8 +64,7 @@ class LoveGameViewController: UIViewController {
             naughtyLevelLbl.text = "Naughty Level: Don't Do It"
             naughtyInt = 4
         }
-        loveController.naughtyLevel = NaughtyLevel.init(rawValue: Int32(naughtyInt))!
-        UserDefaults.standard.set(selectedValue, forKey: "naughtyLevel")
+        DBUtility.setNaughtyLevel(value: Double(selectedValue))
     }
     
     private func navigateToSettings() {
@@ -71,6 +79,16 @@ class LoveGameViewController: UIViewController {
             return
         }
         present(settingsNavigationVC, animated: false, completion: nil)
+    }
+    
+    func presentFuzzyDiceView() {
+        self.fuzzyDiceView.isHidden = false
+        self.sexySentenceView.isHidden = true
+    }
+    
+    func presentSexySentenceView() {
+        self.fuzzyDiceView.isHidden = true
+        self.sexySentenceView.isHidden = false
     }
 }
 

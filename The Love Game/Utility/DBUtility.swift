@@ -36,7 +36,7 @@ enum NaughtyLevel: Int32 {
 }
 
 func getTextEntityList(wordType: WordType) -> [TextEntity] {
-    var words: [TextEntity] = getAllTextEntities()
+    let words: [TextEntity] = getAllTextEntities()
     let entities = words.filter{word in
         return word.type == wordType.rawValue
     }
@@ -237,5 +237,31 @@ public class WordPicker {
         returnedTextEntity = textEntities[randomIndex]
         
         return returnedTextEntity
+    }
+}
+
+class DBUtility {
+    
+    class func getNaughtyLevel() -> Double {
+        return UserDefaults.standard.double(forKey: "naughtyLevel")
+    }
+    
+    class func getNaughtyLevelEnum() -> NaughtyLevel {
+        let value = getNaughtyLevel()
+        var naughtyInt = 1
+        if value < 0.2 {
+            naughtyInt = 1
+        } else if value < 0.5 {
+            naughtyInt = 2
+        } else if value < 0.8 {
+            naughtyInt = 3
+        } else {
+            naughtyInt = 4
+        }
+        return NaughtyLevel.init(rawValue: Int32(naughtyInt))!
+    }
+    
+    class func setNaughtyLevel(value: Double) {
+        UserDefaults.standard.set(value, forKey: "naughtyLevel")
     }
 }

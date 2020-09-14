@@ -19,12 +19,6 @@
       "gender": 2
     },
     {
-      "text": "Lips",
-      "naughtyLevel": "1",
-      "plural": false,
-      "gender": 2
-    },
-    {
       "text": "Face",
       "naughtyLevel": "1",
       "plural": false,
@@ -79,8 +73,8 @@
       "gender": 2
     },
     {
-      "text": "Rump",
-      "naughtyLevel": "2",
+      "text": "Lips",
+      "naughtyLevel": "1,2",
       "plural": false,
       "gender": 2
     },
@@ -94,18 +88,6 @@
       "text": "Nuts",
       "naughtyLevel": "2",
       "plural": true,
-      "gender": 0
-    },
-    {
-      "text": "Titties",
-      "naughtyLevel": "2",
-      "plural": true,
-      "gender": 2
-    },
-    {
-      "text": "Weiner",
-      "naughtyLevel": "2",
-      "plural": false,
       "gender": 0
     },
     {
@@ -130,12 +112,6 @@
       "text": "Mouth",
       "naughtyLevel": "2",
       "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Lips",
-      "naughtyLevel": "2",
-      "plural": true,
       "gender": 2
     },
     {
@@ -167,18 +143,6 @@
       "naughtyLevel": "2",
       "plural": true,
       "gender": 2
-    },
-    {
-      "text": "Booty",
-      "naughtyLevel": "2",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Jugs",
-      "naughtyLevel": "2",
-      "plural": true,
-      "gender": 1
     },
     {
       "text": "Package",
@@ -235,12 +199,6 @@
       "gender": 1
     },
     {
-      "text": "Boob",
-      "naughtyLevel": "2",
-      "plural": false,
-      "gender": 2
-    },
-    {
       "text": "Hindquarters",
       "naughtyLevel": "2",
       "plural": false,
@@ -250,6 +208,36 @@
       "text": "Buttocks",
       "naughtyLevel": "2",
       "plural": true,
+      "gender": 2
+    },
+    {
+      "text": "Boob",
+      "naughtyLevel": "2,3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Jugs",
+      "naughtyLevel": "2,3",
+      "plural": true,
+      "gender": 1
+    },
+    {
+      "text": "Rump",
+      "naughtyLevel": "2,3",
+      "plural": false,
+      "gender": 2
+    },
+    {
+      "text": "Weiner",
+      "naughtyLevel": "2,3",
+      "plural": false,
+      "gender": 0
+    },
+    {
+      "text": "Booty",
+      "naughtyLevel": "2,3",
+      "plural": false,
       "gender": 2
     },
     {
@@ -266,7 +254,7 @@
     },
     {
       "text": "Schlong",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": false,
       "gender": 0
     },
@@ -278,27 +266,21 @@
     },
     {
       "text": "Holes",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": true,
       "gender": 2
     },
     {
       "text": "Titties",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": true,
       "gender": 1
     },
     {
       "text": "Pubes",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": true,
       "gender": 2
-    },
-    {
-      "text": "Weiner",
-      "naughtyLevel": "3",
-      "plural": false,
-      "gender": 0
     },
     {
       "text": "Vagina",
@@ -338,19 +320,13 @@
     },
     {
       "text": "Taint",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Folds",
-      "naughtyLevel": "3",
-      "plural": true,
-      "gender": 1
-    },
-    {
-      "text": "Jugs",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": true,
       "gender": 1
     },
@@ -374,13 +350,13 @@
     },
     {
       "text": "Muff",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": false,
       "gender": 1
     },
     {
       "text": "Beaver",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": false,
       "gender": 1
     },
@@ -409,12 +385,6 @@
       "gender": 2
     },
     {
-      "text": "Boob",
-      "naughtyLevel": "3",
-      "plural": false,
-      "gender": 2
-    },
-    {
       "text": "Tit",
       "naughtyLevel": "3",
       "plural": false,
@@ -427,12 +397,6 @@
       "gender": 2
     },
     {
-      "text": "Rump",
-      "naughtyLevel": "3",
-      "plural": false,
-      "gender": 2
-    },
-    {
       "text": "Hiney",
       "naughtyLevel": "3",
       "plural": false,
@@ -440,33 +404,15 @@
     },
     {
       "text": "Butthole",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": false,
       "gender": 2
-    },
-    {
-      "text": "Whispering Eye",
-      "naughtyLevel": "3",
-      "plural": false,
-      "gender": 1
-    },
-    {
-      "text": "Schlong",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 0
     },
     {
       "text": "Vag",
       "naughtyLevel": "4",
       "plural": false,
       "gender": 0
-    },
-    {
-      "text": "Holes",
-      "naughtyLevel": "4",
-      "plural": true,
-      "gender": 1
     },
     {
       "text": "Anus",
@@ -481,34 +427,10 @@
       "gender": 2
     },
     {
-      "text": "Titties",
-      "naughtyLevel": "4",
-      "plural": true,
-      "gender": 1
-    },
-    {
-      "text": "Pubes",
-      "naughtyLevel": "4",
-      "plural": true,
-      "gender": 2
-    },
-    {
       "text": "Scrotum",
       "naughtyLevel": "4",
       "plural": false,
       "gender": 0
-    },
-    {
-      "text": "Taint",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 0
-    },
-    {
-      "text": "Folds",
-      "naughtyLevel": "4",
-      "plural": true,
-      "gender": 1
     },
     {
       "text": "Colon",
@@ -529,18 +451,6 @@
       "gender": 0
     },
     {
-      "text": "Muff",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 1
-    },
-    {
-      "text": "Beaver",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 1
-    },
-    {
       "text": "Poon",
       "naughtyLevel": "4",
       "plural": false,
@@ -559,9 +469,9 @@
       "gender": 0
     },
     {
-      "text": "Butthole",
+      "text": "Buttholes",
       "naughtyLevel": "4",
-      "plural": false,
+      "plural": true,
       "gender": 2
     },
     {
@@ -581,12 +491,6 @@
       "naughtyLevel": "4",
       "plural": true,
       "gender": 2
-    },
-    {
-      "text": "Whispering Eye",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 1
     },
     {
       "text": "Shit",
@@ -610,25 +514,25 @@
   "Adjectives": [
     {
       "text": "Smooth",
-      "naughtyLevel": "1",
+      "naughtyLevel": "1,2",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Large",
-      "naughtyLevel": "1",
+      "naughtyLevel": "1,2",
       "plural": false,
       "gender": 2
     },
     {
-      "text": "cute",
-      "naughtyLevel": "1",
+      "text": "Cute",
+      "naughtyLevel": "1,2",
       "plural": false,
       "gender": 2
     },
     {
-      "text": "fabulous",
-      "naughtyLevel": "1",
+      "text": "Fabulous",
+      "naughtyLevel": "1,2",
       "plural": false,
       "gender": 2
     },
@@ -640,43 +544,31 @@
     },
     {
       "text": "All-American",
-      "naughtyLevel": "1",
+      "naughtyLevel": "1,2",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Sweaty",
-      "naughtyLevel": "2",
+      "naughtyLevel": "2,3,4",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Moist",
-      "naughtyLevel": "2",
+      "naughtyLevel": "2,3,4",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Damp",
-      "naughtyLevel": "2",
+      "naughtyLevel": "2,3,4",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Pink",
-      "naughtyLevel": "2",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Smooth",
-      "naughtyLevel": "2",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Large",
-      "naughtyLevel": "2",
+      "naughtyLevel": "2,3",
       "plural": false,
       "gender": 2
     },
@@ -688,7 +580,7 @@
     },
     {
       "text": "Hot",
-      "naughtyLevel": "2",
+      "naughtyLevel": "2,3",
       "plural": false,
       "gender": 2
     },
@@ -700,91 +592,55 @@
     },
     {
       "text": "Perky",
-      "naughtyLevel": "2",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Wrinkly",
-      "naughtyLevel": "2",
+      "naughtyLevel": "2,3",
       "plural": false,
       "gender": 2
     },
     {
       "text": "luscious",
-      "naughtyLevel": "2",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "cute",
-      "naughtyLevel": "2",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "fabulous",
-      "naughtyLevel": "2",
+      "naughtyLevel": "2,3",
       "plural": false,
       "gender": 2
     },
     {
       "text": "gay",
-      "naughtyLevel": "2",
+      "naughtyLevel": "2,3",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Spicy",
-      "naughtyLevel": "2",
+      "naughtyLevel": "2,3",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Meaty",
-      "naughtyLevel": "3",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Sweaty",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Veiney",
-      "naughtyLevel": "3",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Moist",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Erect",
-      "naughtyLevel": "3",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Damp",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Hairy",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Barely Legal",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": false,
       "gender": 2
     },
@@ -795,56 +651,32 @@
       "gender": 2
     },
     {
-      "text": "Hot",
-      "naughtyLevel": "3",
-      "plural": false,
-      "gender": 2
-    },
-    {
       "text": "Hideous",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Lopsided",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Flaccid",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Microscopic",
-      "naughtyLevel": "3",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Perky",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Engorged",
-      "naughtyLevel": "3",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Luscious",
-      "naughtyLevel": "3",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "gay",
-      "naughtyLevel": "3",
+      "naughtyLevel": "3,4",
       "plural": false,
       "gender": 2
     },
@@ -862,96 +694,12 @@
     },
     {
       "text": "Steamy",
-      "naughtyLevel": "3",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Spicy",
-      "naughtyLevel": "3",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Meaty",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Sweaty",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Veiney",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Moist",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Erect",
-      "naughtyLevel": "4",
+      "naughtyLevel": "3,4",
       "plural": false,
       "gender": 2
     },
     {
       "text": "Soggy",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Damp",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Hairy",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Barely legal",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Hideous",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Lopsided",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Flaccid",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Microscopic",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Engorged",
       "naughtyLevel": "4",
       "plural": false,
       "gender": 2
@@ -976,12 +724,6 @@
     },
     {
       "text": "Stinky",
-      "naughtyLevel": "4",
-      "plural": false,
-      "gender": 2
-    },
-    {
-      "text": "Steamy",
       "naughtyLevel": "4",
       "plural": false,
       "gender": 2
