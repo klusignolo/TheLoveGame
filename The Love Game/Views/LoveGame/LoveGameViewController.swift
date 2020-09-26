@@ -18,9 +18,9 @@ class LoveGameViewController: UIViewController {
     @IBOutlet weak var fuzzyDiceView: UIView!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        seedData()
         setupUI()
     }
     
@@ -30,6 +30,18 @@ class LoveGameViewController: UIViewController {
         let userNaughtyLvl = DBUtility.getNaughtyLevel()
         self.naughtyLevelSlider.value = Float(userNaughtyLvl)
         setNaughtyLevel()
+        setupSlider()
+        setupSegmentedControl()
+    }
+    
+    private func setupSlider() {
+        let sliderImage = UIImage(systemName: "heart.fill")
+        naughtyLevelSlider.setThumbImage(sliderImage, for: .normal)
+    }
+    
+    private func setupSegmentedControl() {
+        segmentedControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.lovePrimaryText], for: .normal)
+        segmentedControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.loveSecondaryText], for: .selected)
     }
     
     @IBAction func naughtyLevelSliderMove(_ sender: Any) {
@@ -37,7 +49,7 @@ class LoveGameViewController: UIViewController {
     }
     
     @IBAction func settingsTapped(_ sender: Any) {
-        //navigateToSettings()
+        navigateToSettings()
     }
     
     @IBAction func segmentIndexChanged(_ sender: Any) {
@@ -49,36 +61,33 @@ class LoveGameViewController: UIViewController {
             break
         }
     }
+    
     private func setNaughtyLevel() {
         let selectedValue = naughtyLevelSlider.value
-        var naughtyInt = 1
         if selectedValue < 0.2 {
             naughtyLevelLbl.text = "Naughty Level: Mild"
         } else if selectedValue < 0.5 {
             naughtyLevelLbl.text = "Naughty Level: Spicy"
-            naughtyInt = 2
         } else if selectedValue < 0.8 {
             naughtyLevelLbl.text = "Naughty Level: Sexy"
-            naughtyInt = 3
         } else {
             naughtyLevelLbl.text = "Naughty Level: Don't Do It"
-            naughtyInt = 4
         }
         DBUtility.setNaughtyLevel(value: Double(selectedValue))
     }
     
     private func navigateToSettings() {
         let transition = CATransition()
-        transition.duration = 0.5
+        transition.duration = 0.3
         transition.type = .push
         transition.subtype = .fromRight
         transition.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
         view.window!.layer.add(transition, forKey: kCATransition)
-        let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        guard let settingsNavigationVC = mainStoryboard.instantiateViewController(withIdentifier: "SettingsNavigationController") as? SettingsNavigationController else {
-            return
-        }
+        let settingsStoryboard = UIStoryboard(name: "Settings", bundle: nil)
+        let settingsNavigationVC = settingsStoryboard.instantiateViewController(withIdentifier: "SettingsNavigationController")
+        settingsNavigationVC.modalPresentationStyle = .fullScreen
         present(settingsNavigationVC, animated: false, completion: nil)
+        
     }
     
     func presentFuzzyDiceView() {

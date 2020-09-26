@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,7 +12,6 @@
         <!--Love Game View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="LoveGameViewController" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="LoveGameViewController" customModule="The_Love_Game" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -19,12 +20,12 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Love Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yvS-LG-JqS">
                                 <rect key="frame" x="29" y="54" width="356" height="97"/>
                                 <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="83"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" name="LovePrimaryText"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="rb8-gm-LkQ">
                                 <rect key="frame" x="28" y="817" width="358" height="31"/>
-                                <color key="tintColor" red="1" green="0.48387444481945596" blue="0.46133979128845415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" name="DarkLoveRed"/>
                                 <connections>
                                     <action selector="naughtyLevelSliderMove:" destination="BYZ-38-t0r" eventType="valueChanged" id="aXk-Zc-W9s"/>
                                 </connections>
@@ -32,13 +33,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Naughty Level: Mild" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mpc-w0-RuG">
                                 <rect key="frame" x="10" y="790.5" width="394" height="23.5"/>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
-                                <color key="textColor" red="0.32039181472081213" green="0.057344931683961653" blue="0.10869375391874474" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" name="LovePrimaryText"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap a button, see the response!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odS-0I-34w">
                                 <rect key="frame" x="20" y="123" width="374" height="28"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" name="LovePrimaryText"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4MX-TO-J56">
@@ -48,7 +49,7 @@
                                     <constraint firstAttribute="width" constant="75" id="yU3-ky-6sY"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="tintColor" red="0.57951300760000002" green="0.13478636529999999" blue="0.11307603820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" name="LovePrimaryText"/>
                                 <state key="normal" backgroundImage="gear" catalog="system"/>
                                 <connections>
                                     <action selector="settingsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="630-Kd-Ueq"/>
@@ -56,12 +57,12 @@
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="g6E-7r-ghd">
                                 <rect key="frame" x="50" y="159" width="314" height="32"/>
-                                <color key="backgroundColor" red="0.78662357231370561" green="0.1391832665729445" blue="0.27277995076109424" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" name="LovePink"/>
                                 <segments>
                                     <segment title="Sexy Sentence"/>
                                     <segment title="Fuzzy Dice"/>
                                 </segments>
-                                <color key="selectedSegmentTintColor" red="1" green="0.52624110700365123" blue="0.63788703526586699" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="selectedSegmentTintColor" name="DarkLoveRed"/>
                                 <connections>
                                     <action selector="segmentIndexChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="MLZ-jk-9HM"/>
                                 </connections>
@@ -79,7 +80,8 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="LoveRed"/>
                         <constraints>
                             <constraint firstItem="yvS-LG-JqS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1ii-WC-Cz7"/>
                             <constraint firstItem="mpc-w0-RuG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1qq-3h-82a"/>
@@ -107,7 +109,6 @@
                             <constraint firstItem="AQy-1J-fnv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="wQ9-lH-i7j"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g6E-7r-ghd" secondAttribute="trailing" constant="50" id="xkn-fx-MwX"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="oO8-N2-JLq">
                         <barButtonItem key="backBarButtonItem" title="The Love Game" id="i2D-VH-ocZ"/>
@@ -121,6 +122,7 @@
                         <outlet property="sexySentenceView" destination="AQy-1J-fnv" id="kUR-4e-QSG"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="797.10144927536237" y="24.776785714285712"/>
         </scene>
@@ -132,55 +134,60 @@
                         <rect key="frame" x="0.0" y="0.0" width="394" height="487"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0c-4b-TMC">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0c-4b-TMC">
                                 <rect key="frame" x="10" y="420" width="374" height="57"/>
-                                <color key="backgroundColor" red="0.81535532990000004" green="0.14593536269999999" blue="0.27661140989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" name="DarkLoveRed"/>
                                 <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="35"/>
                                 <state key="normal" title="Roll Sentence">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" name="LoveSecondaryText"/>
                                 </state>
                                 <connections>
                                     <action selector="rollButtonTapped:" destination="1C2-3q-ITB" eventType="touchUpInside" id="Gve-37-YVP"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sexy Sentence:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7NQ-qO-tAB">
-                                <rect key="frame" x="50" y="0.0" width="294" height="49"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="45"/>
-                                <color key="textColor" red="0.3203918147" green="0.057344931680000003" blue="0.1086937539" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Example sentence goes here. You see? I love it" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="j9h-Cv-e67">
+                                <rect key="frame" x="10" y="195" width="374" height="97"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="22"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oX2-ed-siL">
-                                <rect key="frame" x="10" y="59" width="374" height="331"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Shit on my tits" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QgK-Aj-puk">
-                                        <rect key="frame" x="8" y="8" width="358" height="300"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="textColor" red="0.3203918147" green="0.057344931680000003" blue="0.1086937539" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="0.52624110700000004" blue="0.63788703530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sexy Sentence:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7NQ-qO-tAB">
+                                <rect key="frame" x="75.5" y="123" width="243" height="45.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
+                                <color key="textColor" name="LovePrimaryText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EcD-j1-xgk">
+                                <rect key="frame" x="139" y="89" width="118" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" name="LoveSecondaryText"/>
+                                <state key="normal" title="Say it, Siri..." image="speaker.2.fill" catalog="system">
+                                    <color key="titleColor" name="LoveSecondaryText"/>
+                                    <color key="titleShadowColor" red="1" green="0.73800093690000002" blue="0.78930242699999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="speakSentenceTapped:" destination="1C2-3q-ITB" eventType="touchUpInside" id="Jj0-Ya-zoL"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="lZ1-ss-nle"/>
+                        <color key="backgroundColor" name="LoveRed"/>
                         <constraints>
-                            <constraint firstItem="oX2-ed-siL" firstAttribute="leading" secondItem="m0c-4b-TMC" secondAttribute="leading" id="86V-V0-EgO"/>
-                            <constraint firstItem="m0c-4b-TMC" firstAttribute="top" secondItem="oX2-ed-siL" secondAttribute="bottom" constant="30" id="Ao9-Wy-XII"/>
-                            <constraint firstItem="oX2-ed-siL" firstAttribute="top" secondItem="7NQ-qO-tAB" secondAttribute="bottom" constant="10" id="OeX-7Z-itO"/>
-                            <constraint firstItem="7NQ-qO-tAB" firstAttribute="leading" secondItem="0rC-hh-MbR" secondAttribute="leadingMargin" constant="30" id="PX0-Sh-VKf"/>
-                            <constraint firstItem="oX2-ed-siL" firstAttribute="trailing" secondItem="m0c-4b-TMC" secondAttribute="trailing" id="TZk-ak-LGr"/>
+                            <constraint firstItem="lZ1-ss-nle" firstAttribute="trailing" secondItem="j9h-Cv-e67" secondAttribute="trailing" constant="10" id="1fa-7N-8fJ"/>
+                            <constraint firstItem="j9h-Cv-e67" firstAttribute="height" secondItem="0rC-hh-MbR" secondAttribute="height" multiplier="0.2" id="257-G5-J8S"/>
+                            <constraint firstItem="j9h-Cv-e67" firstAttribute="top" secondItem="7NQ-qO-tAB" secondAttribute="bottom" constant="26.5" id="3tg-Tq-FQ5"/>
+                            <constraint firstItem="j9h-Cv-e67" firstAttribute="centerY" secondItem="0rC-hh-MbR" secondAttribute="centerY" id="Wj6-xl-jgg"/>
                             <constraint firstAttribute="bottomMargin" secondItem="m0c-4b-TMC" secondAttribute="bottom" constant="10" id="X84-KR-zfj"/>
-                            <constraint firstItem="7NQ-qO-tAB" firstAttribute="top" secondItem="0rC-hh-MbR" secondAttribute="top" id="XvK-MW-P5C"/>
-                            <constraint firstItem="oX2-ed-siL" firstAttribute="leading" secondItem="0rC-hh-MbR" secondAttribute="leadingMargin" constant="-10" id="iTW-jA-lPU"/>
-                            <constraint firstItem="7NQ-qO-tAB" firstAttribute="centerX" secondItem="oX2-ed-siL" secondAttribute="centerX" id="iob-7H-GqG"/>
+                            <constraint firstItem="j9h-Cv-e67" firstAttribute="leading" secondItem="lZ1-ss-nle" secondAttribute="leading" constant="10" id="n53-NB-tdW"/>
                             <constraint firstItem="7NQ-qO-tAB" firstAttribute="centerX" secondItem="0rC-hh-MbR" secondAttribute="centerX" id="pcg-v1-ez3"/>
+                            <constraint firstItem="j9h-Cv-e67" firstAttribute="centerX" secondItem="0rC-hh-MbR" secondAttribute="centerX" id="vZn-Gt-Gac"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9R4-0m-R9s"/>
                     <connections>
                         <outlet property="rollButton" destination="m0c-4b-TMC" id="oPf-hd-Cz8"/>
-                        <outlet property="sentenceTextView" destination="QgK-Aj-puk" id="4Ut-PQ-MIY"/>
+                        <outlet property="sentenceLabel" destination="j9h-Cv-e67" id="Pbh-T6-Mk5"/>
+                        <outlet property="speakSentenceButton" destination="EcD-j1-xgk" id="chD-bR-5th"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rr9-Qb-TJq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -195,40 +202,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="394" height="487"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXf-ha-Cu6">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXf-ha-Cu6">
                                 <rect key="frame" x="10" y="420" width="374" height="57"/>
-                                <color key="backgroundColor" red="0.81535532990000004" green="0.14593536269999999" blue="0.27661140989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" name="DarkLoveRed"/>
                                 <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="35"/>
                                 <state key="normal" title="Roll Dice">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" name="LoveSecondaryText"/>
                                 </state>
                                 <connections>
                                     <action selector="rollButtonTapped:" destination="Nxp-C9-6hm" eventType="touchUpInside" id="c4H-yr-iIK"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Action:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05a-qa-49s">
-                                <rect key="frame" x="129" y="0.0" width="136" height="49"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="45"/>
-                                <color key="textColor" red="0.3203918147" green="0.057344931680000003" blue="0.1086937539" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="133" y="0.0" width="128" height="52"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                <color key="textColor" name="LovePrimaryText"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Part:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVd-q1-RXM">
-                                <rect key="frame" x="151" y="219" width="92" height="49"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="45"/>
-                                <color key="textColor" red="0.3203918147" green="0.057344931680000003" blue="0.1086937539" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="155.5" y="218" width="83.5" height="51"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="39"/>
+                                <color key="textColor" name="LovePrimaryText"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ORL-50-Jse">
-                                <rect key="frame" x="10" y="276" width="374" height="60"/>
+                                <rect key="frame" x="10" y="277" width="374" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buttcheeks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2MN-oI-O9l">
                                         <rect key="frame" x="10" y="8" width="354" height="44"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="40"/>
-                                        <color key="textColor" red="0.3203918147" green="0.057344931680000003" blue="0.1086937539" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" name="LovePrimaryText"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.53624533070000002" blue="0.64458410399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" name="LovePink"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="2MN-oI-O9l" secondAttribute="trailing" constant="10" id="UeJ-mV-6pl"/>
                                     <constraint firstItem="2MN-oI-O9l" firstAttribute="leading" secondItem="ORL-50-Jse" secondAttribute="leading" constant="10" id="Z1h-nD-AWc"/>
@@ -237,16 +244,16 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IZ4-JA-OjG">
-                                <rect key="frame" x="10" y="57" width="374" height="60"/>
+                                <rect key="frame" x="10" y="60" width="374" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lick" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLf-ep-cfc">
                                         <rect key="frame" x="10" y="8" width="354" height="44"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="40"/>
-                                        <color key="textColor" red="0.3203918147" green="0.057344931680000003" blue="0.1086937539" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" name="LovePrimaryText"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.53624533071523661" blue="0.64458410401544541" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" name="LovePink"/>
                                 <constraints>
                                     <constraint firstItem="gLf-ep-cfc" firstAttribute="leading" secondItem="IZ4-JA-OjG" secondAttribute="leading" constant="10" id="1YH-pe-MGX"/>
                                     <constraint firstAttribute="height" constant="60" id="O72-se-OVv"/>
@@ -255,7 +262,8 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="HRQ-5R-BsJ"/>
+                        <color key="backgroundColor" name="LoveRed"/>
                         <constraints>
                             <constraint firstItem="ORL-50-Jse" firstAttribute="leading" secondItem="HRQ-5R-BsJ" secondAttribute="leading" constant="10" id="1lk-SK-69X"/>
                             <constraint firstItem="HRQ-5R-BsJ" firstAttribute="trailing" secondItem="ORL-50-Jse" secondAttribute="trailing" constant="10" id="78T-Vp-54R"/>
@@ -271,7 +279,6 @@
                             <constraint firstItem="WVd-q1-RXM" firstAttribute="centerX" secondItem="Ibx-qw-9cB" secondAttribute="centerX" id="uID-Q0-b0g"/>
                             <constraint firstItem="ORL-50-Jse" firstAttribute="top" secondItem="WVd-q1-RXM" secondAttribute="bottom" constant="8" id="vY8-jG-kgL"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="HRQ-5R-BsJ"/>
                     </view>
                     <navigationItem key="navigationItem" id="F0r-7z-zEi"/>
                     <nil key="simulatedTopBarMetrics"/>
@@ -288,5 +295,21 @@
     </scenes>
     <resources>
         <image name="gear" catalog="system" width="128" height="119"/>
+        <image name="speaker.2.fill" catalog="system" width="128" height="90"/>
+        <namedColor name="DarkLoveRed">
+            <color red="0.5339999794960022" green="0.092000000178813934" blue="0.11699999868869781" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LovePink">
+            <color red="1" green="0.52600002288818359" blue="0.6380000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LovePrimaryText">
+            <color red="0.18400000035762787" green="0.032999999821186066" blue="0.064000003039836884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LoveRed">
+            <color red="0.81499999761581421" green="0.14599999785423279" blue="0.27700001001358032" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LoveSecondaryText">
+            <color red="1" green="0.86799997091293335" blue="0.9649999737739563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>

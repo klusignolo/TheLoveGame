@@ -1,8 +1,8 @@
 //
-//  Extensions.swift
+//  UITextViewExtensions.swift
 //  The Love Game
 //
-//  Created by Kevin Lusignolo on 9/13/20.
+//  Created by Kevin Lusignolo on 9/19/20.
 //  Copyright © 2020 Kevin Lusignolo. All rights reserved.
 //
 
@@ -16,18 +16,5 @@ extension UITextView {
         let topOffset = (bounds.size.height - size.height * zoomScale) / 2
         let positiveTopOffset = max(1, topOffset)
         contentOffset.y = -positiveTopOffset
-    }
-}
-
-extension UIResponder {
-    func getOwningViewController() -> UIViewController? {
-        var nextResponder = self
-        while let next = nextResponder.next {
-            nextResponder = next
-            if let viewController = nextResponder as? UIViewController {
-                return viewController
-            }
-        }
-        return nil
     }
 }

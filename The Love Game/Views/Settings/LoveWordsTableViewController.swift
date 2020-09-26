@@ -15,7 +15,7 @@ class LoveWordsTableViewController: UITableViewController {
     @IBOutlet var textEntityTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        loveWordsList = getAllTextEntities()
+        loveWordsList = DBUtility.getAllTextEntities()
     }
 
     // MARK: - Table view data source

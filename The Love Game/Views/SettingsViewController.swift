@@ -56,7 +56,7 @@ class SettingsViewController: UIViewController {
         transition.subtype = .fromLeft
         transition.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
         view.window!.layer.add(transition, forKey: kCATransition)
-        let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let mainStoryboard = UIStoryboard(name: "LoveGame", bundle: Bundle.main)
         guard let loveGameVC = mainStoryboard.instantiateViewController(withIdentifier: "LoveGameViewController") as? LoveGameViewController else {
             return
         }

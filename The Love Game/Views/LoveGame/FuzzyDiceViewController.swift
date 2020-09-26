@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class FuzzyDiceViewController: UIViewController {
     @IBOutlet weak var actionLabel: UILabel!

@@ -17,22 +17,23 @@ class LoveController {
     }
     
     func getSentence() -> String {
-        return "Fucknuts"
+        let sentence = Sentence()
+        return sentence.roll()
     }
     
     func getFuzzyDice() -> String {
-        guard let part = WordPicker.getRandomWord(wordType: .Part, naughtyLvl: naughtyLevel, gender: .Neutral, plural: false).text else { return "" }
-        guard let action = WordPicker.getRandomWord(wordType: .Action, naughtyLvl: naughtyLevel, gender: .Neutral, plural: false).text else { return "" }
+        guard let part = LoveUtility.getRandomWord(wordType: .Part, naughtyLvl: naughtyLevel, gender: .Neutral, plural: false).text else { return "" }
+        guard let action = LoveUtility.getRandomWord(wordType: .Action, naughtyLvl: naughtyLevel, gender: .Neutral, plural: false).text else { return "" }
         return "\(action) \(part)"
     }
     
     func getPart() -> String {
-        guard let part = WordPicker.getRandomWord(wordType: .Part, naughtyLvl: naughtyLevel, gender: .Neutral, plural: false).text else { return "" }
+        guard let part = LoveUtility.getRandomWord(wordType: .Part, naughtyLvl: naughtyLevel, gender: .Neutral, plural: false).text else { return "" }
         return part
     }
     
     func getAction() -> String {
-        guard let action = WordPicker.getRandomWord(wordType: .Action, naughtyLvl: naughtyLevel, gender: .Neutral, plural: false).text else { return "" }
+        guard let action = LoveUtility.getRandomWord(wordType: .Action, naughtyLvl: naughtyLevel, gender: .Neutral, plural: false).text else { return "" }
         return action
     }
 }
