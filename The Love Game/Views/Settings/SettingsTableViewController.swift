@@ -12,8 +12,7 @@ class SettingsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "LoveCell")
-        setupUI()
+        tableView.register(UINib(nibName: LoveSettingTableViewCell.nibName(), bundle: nil), forCellReuseIdentifier: LoveSettingTableViewCell.reuseIdentifier())
     }
     
     enum SettingsCells: Int {
@@ -31,36 +30,32 @@ class SettingsTableViewController: UITableViewController {
     // MARK: - Table view data source
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "LoveCell", for: indexPath)
-        if let loveCell = cell as? LoveSettingTableViewCell {
-            switch SettingsSections.init(rawValue: indexPath.section) {
+        let loveCell = tableView.dequeueReusableCell(withIdentifier: LoveSettingTableViewCell.reuseIdentifier()) as! LoveSettingTableViewCell
+        switch SettingsSections.init(rawValue: indexPath.section) {
+        case .Words:
+            switch SettingsCells.init(rawValue: indexPath.row) {
             case .Words:
-                switch SettingsCells.init(rawValue: indexPath.row) {
-                case .Words:
-                    loveCell.leftLabel.text = "Setup Words"
-                    break
-                case .Sentence:
-                    loveCell.leftLabel.text = "Setup Sentence"
-                    break
-                default:
-                    break
-                }
+                loveCell.leftLabel?.text = "Setup Words"
                 break
-            case .Voice:
-                switch SettingsCells.init(rawValue: indexPath.row + 2) {
-                case .Voice:
-                    loveCell.leftLabel.text = "Change Voice"
-                default:
-                    break
-                }
+            case .Sentence:
+                loveCell.leftLabel?.text = "Setup Sentence"
                 break
             default:
                 break
             }
-            return cell
-        } else {
-            return UITableViewCell()
+            break
+        case .Voice:
+            switch SettingsCells.init(rawValue: indexPath.row + 2) {
+            case .Voice:
+                loveCell.leftLabel?.text = "Change Voice"
+            default:
+                break
+            }
+            break
+        default:
+            break
         }
+        return loveCell
         
     }
     

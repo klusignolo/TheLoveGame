@@ -131,7 +131,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="1C2-3q-ITB" customClass="SexySentenceViewController" customModule="The_Love_Game" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0rC-hh-MbR">
-                        <rect key="frame" x="0.0" y="0.0" width="394" height="487"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0c-4b-TMC">
@@ -199,7 +199,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="Nxp-C9-6hm" customClass="FuzzyDiceViewController" customModule="The_Love_Game" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ibx-qw-9cB">
-                        <rect key="frame" x="0.0" y="0.0" width="394" height="487"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXf-ha-Cu6">
@@ -294,8 +294,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="gear" catalog="system" width="128" height="119"/>
-        <image name="speaker.2.fill" catalog="system" width="128" height="90"/>
+        <image name="gear" catalog="system" width="32" height="32"/>
+        <image name="speaker.2.fill" catalog="system" width="32" height="32"/>
         <namedColor name="DarkLoveRed">
             <color red="0.5339999794960022" green="0.092000000178813934" blue="0.11699999868869781" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

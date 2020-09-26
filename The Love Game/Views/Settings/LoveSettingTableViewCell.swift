@@ -15,6 +15,14 @@ class LoveSettingTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
     }
+    
+    class func nibName() -> String {
+        return "LoveSettingTableViewCell"
+    }
+    
+    class func reuseIdentifier() -> String {
+        return "LoveSettingTableViewCell"
+    }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
