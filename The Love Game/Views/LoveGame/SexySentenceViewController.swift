@@ -30,22 +30,21 @@ class SexySentenceViewController: UIViewController {
     }
     
     private func readSentence() {
+        let voiceId = DBUtility.getVoiceId()
+        let voice = AVSpeechSynthesisVoice.speechVoices().filter { $0.identifier == voiceId }.first!
         let speechUtterance: AVSpeechUtterance = AVSpeechUtterance(string: self.sentenceLabel.text ?? "")
-        speechUtterance.rate = AVSpeechUtteranceMaximumSpeechRate / 2.25
-        speechUtterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        speechUtterance.rate = Float(DBUtility.getVoiceSpeed())
+        speechUtterance.voice = voice
         speechSynthesizer.speak(speechUtterance)
-        for voice in AVSpeechSynthesisVoice.speechVoices() {
-            if voice.language.hasPrefix("en-") {
-                print(voice)
-            }
-        }
-        
     }
     
     @IBAction func rollButtonTapped(_ sender: Any) {
         let sexySentence = loveController?.getSentence()
         self.sentenceLabel.text = sexySentence
         self.speakSentenceButton.isHidden = false
+        if DBUtility.getSoundEnabled() {
+            readSentence()
+        }
     }
     
     @IBAction func speakSentenceTapped(_ sender: Any) {

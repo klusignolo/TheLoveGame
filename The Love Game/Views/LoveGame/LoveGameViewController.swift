@@ -30,13 +30,7 @@ class LoveGameViewController: UIViewController {
         let userNaughtyLvl = DBUtility.getNaughtyLevel()
         self.naughtyLevelSlider.value = Float(userNaughtyLvl)
         setNaughtyLevel()
-        setupSlider()
         setupSegmentedControl()
-    }
-    
-    private func setupSlider() {
-        let sliderImage = UIImage(systemName: "heart.fill")
-        naughtyLevelSlider.setThumbImage(sliderImage, for: .normal)
     }
     
     private func setupSegmentedControl() {

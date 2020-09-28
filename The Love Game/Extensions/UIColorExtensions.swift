@@ -19,9 +19,24 @@ extension UIColor {
             return UIColor.init(named: "LoveRed")!
         }
     }
+    static var loveSmoke:UIColor {
+        get {
+            return UIColor.init(named: "LoveSmoke")!
+        }
+    }
     static var darkLoveRed:UIColor {
         get {
             return UIColor.init(named: "DarkLoveRed")!
+        }
+    }
+    static var highlightPink:UIColor {
+        get {
+            return UIColor.init(named: "HighlightPink")!
+        }
+    }
+    static var darkLovePink:UIColor {
+        get {
+            return UIColor.init(named: "DarkLovePink")!
         }
     }
     static var lovePrimaryText:UIColor {

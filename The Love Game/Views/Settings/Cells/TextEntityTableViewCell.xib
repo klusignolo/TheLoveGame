@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="TextEntityTableViewCell" rowHeight="60" id="KGk-i7-Jjw" customClass="TextEntityTableViewCell" customModule="The_Love_Game" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="293" height="52"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Naughty Level: 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="On0-Dt-d0v">
+                        <rect key="frame" x="15" y="28" width="109" height="19"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                        <color key="textColor" name="DarkLovePink"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nipples" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="O5L-HN-Che">
+                        <rect key="frame" x="15" y="5" width="273" height="25"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                        <color key="textColor" name="LovePrimaryText"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" name="LoveSmoke"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="On0-Dt-d0v" secondAttribute="bottom" constant="5" id="LWU-Op-eZM"/>
+                    <constraint firstItem="O5L-HN-Che" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="ZGn-x8-h3j"/>
+                    <constraint firstAttribute="trailing" secondItem="O5L-HN-Che" secondAttribute="trailing" constant="5" id="aDV-xV-8gg"/>
+                    <constraint firstItem="On0-Dt-d0v" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="cZj-sm-opJ"/>
+                    <constraint firstItem="O5L-HN-Che" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="gas-DJ-g81"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" name="LoveSmoke"/>
+            <connections>
+                <outlet property="naughtyLevelLabel" destination="On0-Dt-d0v" id="Cct-DM-17a"/>
+                <outlet property="wordLabel" destination="O5L-HN-Che" id="i1M-Zq-Oqc"/>
+            </connections>
+            <point key="canvasLocation" x="-10.144927536231885" y="52.901785714285715"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="DarkLovePink">
+            <color red="0.77647058823529413" green="0.41568627450980394" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LovePrimaryText">
+            <color red="0.18400000035762787" green="0.032999999821186066" blue="0.064000003039836884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LoveSmoke">
+            <color red="1" green="0.89899998903274536" blue="0.99099999666213989" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

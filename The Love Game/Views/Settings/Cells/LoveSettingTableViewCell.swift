@@ -7,11 +7,11 @@
 //
 
 import UIKit
+import Foundation
 
 class LoveSettingTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var leftLabel: UILabel!
-    
+    @IBOutlet weak var leftLabel: UILabel!    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
@@ -23,9 +23,4 @@ class LoveSettingTableViewCell: UITableViewCell {
     class func reuseIdentifier() -> String {
         return "LoveSettingTableViewCell"
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-    }
-    
 }

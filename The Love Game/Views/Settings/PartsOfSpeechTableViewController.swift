@@ -7,84 +7,101 @@
 //
 
 import UIKit
+import Foundation
 
 class PartsOfSpeechTableViewController: UITableViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        tableView.register(UINib(nibName: LoveSettingTableViewCell.nibName(), bundle: nil), forCellReuseIdentifier: LoveSettingTableViewCell.reuseIdentifier())
+    }
+    
+    enum wordTypeIndex: Int {
+        case Part = 0
+        case Actions = 1
+        case Adjectives = 2
+        case Adverbs = 3
+        case Pronouns = 4
+        case Beginnings = 5
+        case Interjections = 6
+        case Punctuation = 7
     }
 
     // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
-    }
-
-    /*
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
-        return cell
-    }
-    */
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "LoveWordsSegue" {
+            let loveWordsVC = segue.destination as! LoveWordsTableViewController
+            loveWordsVC.wordType = sender as? WordType
+        }
     }
-    */
-
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 8
+    }
+    
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let loveCell = tableView.dequeueReusableCell(withIdentifier: LoveSettingTableViewCell.reuseIdentifier()) as! LoveSettingTableViewCell
+        switch wordTypeIndex.init(rawValue: indexPath.row) {
+        case .Part:
+            loveCell.leftLabel.text = "Parts"
+            break
+        case .Actions:
+            loveCell.leftLabel.text = "Actions"
+            break
+        case.Adjectives:
+            loveCell.leftLabel.text = "Adjectives"
+            break
+        case .Adverbs:
+            loveCell.leftLabel.text = "Adverbs"
+            break
+        case .Pronouns:
+            loveCell.leftLabel.text = "Pronouns"
+            break
+        case .Beginnings:
+            loveCell.leftLabel.text = "Beginnings"
+            break
+        case .Interjections:
+            loveCell.leftLabel.text = "Interjections"
+            break
+        case .Punctuation:
+            loveCell.leftLabel.text = "Punctuation"
+            break
+        default:
+            break
+        }
+        return loveCell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch wordTypeIndex.init(rawValue: indexPath.row) {
+        case .Part:
+            performSegue(withIdentifier: "LoveWordsSegue", sender: WordType.Part)
+            break
+        case .Actions:
+            performSegue(withIdentifier: "LoveWordsSegue", sender: WordType.Action)
+            break
+        case.Adjectives:
+            performSegue(withIdentifier: "LoveWordsSegue", sender: WordType.Adjective)
+            break
+        case .Adverbs:
+            performSegue(withIdentifier: "LoveWordsSegue", sender: WordType.Adverb)
+            break
+        case .Pronouns:
+            performSegue(withIdentifier: "LoveWordsSegue", sender: WordType.Pronoun)
+            break
+        case .Beginnings:
+            performSegue(withIdentifier: "LoveWordsSegue", sender: WordType.Beginning)
+            break
+        case .Interjections:
+            performSegue(withIdentifier: "LoveWordsSegue", sender: WordType.Interjection)
+            break
+        case .Punctuation:
+            performSegue(withIdentifier: "LoveWordsSegue", sender: WordType.Punctuation)
+            break
+        default:
+            break
+        }
+    }
 }

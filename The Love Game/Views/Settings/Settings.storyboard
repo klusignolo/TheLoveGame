@@ -5,7 +5,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,47 +12,14 @@
         <scene sceneID="mvX-bK-baY">
             <objects>
                 <tableViewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="3bJ-If-dNq" customClass="SettingsTableViewController" customModule="The_Love_Game" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="lpT-fs-kxW">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="lpT-fs-kxW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.53624533070000002" blue="0.64458410399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="LoveSmoke"/>
                         <color key="sectionIndexColor" name="LovePrimaryText"/>
-                        <color key="sectionIndexBackgroundColor" name="LoveSecondaryText"/>
-                        <color key="sectionIndexTrackingBackgroundColor" name="LoveSecondaryText"/>
-                        <sections>
-                            <tableViewSection id="SYV-Al-gmT">
-                                <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="gEW-mR-nTv">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="1.1920928955078125e-07"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gEW-mR-nTv" id="oMk-Rj-aWj">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="1.1920928955078125e-07"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="ghz-5b-czo">
-                                        <rect key="frame" x="0.0" y="28.00000011920929" width="414" height="1.1920928955078125e-07"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ghz-5b-czo" id="6oX-Kb-Wor">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="1.1920928955078125e-07"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                            <tableViewSection id="ihJ-2M-fe3">
-                                <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="xyZ-2T-RJW">
-                                        <rect key="frame" x="0.0" y="84.000000238418579" width="414" height="1.1920928955078125e-07"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xyZ-2T-RJW" id="cGk-aH-CFe">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="1.1920928955078125e-07"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                        </sections>
+                        <color key="sectionIndexBackgroundColor" name="LoveSmoke"/>
+                        <color key="sectionIndexTrackingBackgroundColor" name="LoveSmoke"/>
+                        <sections/>
                         <connections>
                             <outlet property="dataSource" destination="3bJ-If-dNq" id="79F-rV-EuI"/>
                             <outlet property="delegate" destination="3bJ-If-dNq" id="dPB-LP-hGa"/>
@@ -62,30 +28,57 @@
                     <navigationItem key="navigationItem" title="Settings" id="zhe-RM-tqk"/>
                     <connections>
                         <segue destination="198-JS-pqW" kind="show" identifier="PartsOfSpeechSegue" id="B6W-kK-iFh"/>
+                        <segue destination="AAf-et-I1A" kind="show" identifier="ChangeVoiceSegue" id="VPe-oD-53d"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aNi-Ra-pjX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="53.623188405797109" y="103.79464285714285"/>
         </scene>
-        <!--Parts Of Speech Table View Controller-->
+        <!--Categories-->
         <scene sceneID="Lt9-Hs-ZqU">
             <objects>
                 <tableViewController id="198-JS-pqW" customClass="PartsOfSpeechTableViewController" customModule="The_Love_Game" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="itR-MU-aAX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="LoveSmoke"/>
+                        <color key="sectionIndexBackgroundColor" name="LoveSmoke"/>
+                        <color key="sectionIndexTrackingBackgroundColor" name="LoveSmoke"/>
                         <connections>
                             <outlet property="dataSource" destination="198-JS-pqW" id="LNI-zV-C3F"/>
                             <outlet property="delegate" destination="198-JS-pqW" id="P7Q-50-RAh"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="3rl-SZ-IHo"/>
+                    <navigationItem key="navigationItem" title="Categories" id="3rl-SZ-IHo"/>
+                    <connections>
+                        <segue destination="cte-hO-ctw" kind="show" identifier="LoveWordsSegue" id="geb-vo-HzP"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9uL-lk-2VR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="994" y="-210"/>
+        </scene>
+        <!--Love Words Table View Controller-->
+        <scene sceneID="Vgz-48-VUf">
+            <objects>
+                <tableViewController id="cte-hO-ctw" customClass="LoveWordsTableViewController" customModule="The_Love_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Gag-jK-W0W">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="LoveSmoke"/>
+                        <color key="sectionIndexBackgroundColor" name="LoveSmoke"/>
+                        <color key="sectionIndexTrackingBackgroundColor" name="LoveSmoke"/>
+                        <connections>
+                            <outlet property="dataSource" destination="cte-hO-ctw" id="9m0-yI-zqD"/>
+                            <outlet property="delegate" destination="cte-hO-ctw" id="c9H-LB-fOD"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="cG4-2q-EYb"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yQV-ec-lez" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1817" y="-210"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Lzj-XD-DLr">
@@ -94,6 +87,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uhC-aW-MdS">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="DarkLoveRed"/>
                         <color key="barTintColor" name="LoveSecondaryText"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="23"/>
@@ -108,16 +102,40 @@
             </objects>
             <point key="canvasLocation" x="-865" y="104"/>
         </scene>
+        <!--Change Voice Table View Controller-->
+        <scene sceneID="92E-5m-coN">
+            <objects>
+                <tableViewController id="AAf-et-I1A" customClass="ChangeVoiceTableViewController" customModule="The_Love_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="wVM-3Q-4X6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="LoveSmoke"/>
+                        <color key="sectionIndexBackgroundColor" name="LoveSmoke"/>
+                        <color key="sectionIndexTrackingBackgroundColor" name="LoveSmoke"/>
+                        <connections>
+                            <outlet property="dataSource" destination="AAf-et-I1A" id="VRF-Hr-6oH"/>
+                            <outlet property="delegate" destination="AAf-et-I1A" id="PsP-nc-oxO"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="FXL-uC-411"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K3R-lc-LCH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="993" y="453"/>
+        </scene>
     </scenes>
     <resources>
+        <namedColor name="DarkLoveRed">
+            <color red="0.5339999794960022" green="0.092000000178813934" blue="0.11699999868869781" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="LovePrimaryText">
             <color red="0.18400000035762787" green="0.032999999821186066" blue="0.064000003039836884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="LoveSecondaryText">
             <color red="1" green="0.86799997091293335" blue="0.9649999737739563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <namedColor name="LoveSmoke">
+            <color red="1" green="0.89899998903274536" blue="0.99099999666213989" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>

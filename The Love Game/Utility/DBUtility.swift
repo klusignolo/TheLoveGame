@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import SwiftyJSON
+import AVFoundation
 
 enum Gender: Int32 {
     case Male = 0
@@ -27,7 +28,42 @@ enum NaughtyLevel: Int32 {
 class DBUtility {
     
     class func getNaughtyLevel() -> Double {
-        return UserDefaults.standard.double(forKey: "naughtyLevel")
+        return UserDefaults.standard.double(forKey: "NaughtyLevel")
+    }
+    
+    class func setNaughtyLevel(value: Double) {
+        UserDefaults.standard.set(value, forKey: "NaughtyLevel")
+    }
+    
+    class func getVoiceSpeed() -> Double {
+        return UserDefaults.standard.double(forKey: "VoiceSpeed")
+    }
+    
+    class func setVoiceSpeed(value: Double) {
+        UserDefaults.standard.set(value, forKey: "VoiceSpeed")
+    }
+    
+    class func getSoundEnabled() -> Bool {
+        return UserDefaults.standard.bool(forKey: "SoundActive")
+    }
+    
+    class func setSoundEnabled(value: Bool) {
+        UserDefaults.standard.set(value, forKey: "SoundActive")
+    }
+    
+    class func getVoiceId() -> String {
+        var voiceId = UserDefaults.standard.string(forKey: "VoiceId")!
+        if voiceId == "" {
+            if let voice = AVSpeechSynthesisVoice(language: "en-US") {
+                voiceId = voice.identifier
+                setVoiceId(value: voice.identifier)
+            }
+        }
+        return voiceId
+    }
+    
+    class func setVoiceId(value: String) {
+        UserDefaults.standard.set(value, forKey: "VoiceId")
     }
     
     class func getNaughtyLevelEnum() -> NaughtyLevel {
@@ -45,10 +81,6 @@ class DBUtility {
         return NaughtyLevel.init(rawValue: Int32(naughtyInt))!
     }
     
-    class func setNaughtyLevel(value: Double) {
-        UserDefaults.standard.set(value, forKey: "naughtyLevel")
-    }
-    
     class func getTextEntityList(wordType: WordType) -> [TextEntity] {
         let words: [TextEntity] = getAllTextEntities()
         let entities = words.filter{word in
@@ -56,7 +88,7 @@ class DBUtility {
         }
         return entities
     }
-
+    
     class func getAllTextEntities() -> [TextEntity] {
         var entities: [TextEntity] = []
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
@@ -64,7 +96,7 @@ class DBUtility {
         }
         return entities
     }
-
+    
     class func addTextEntity(text: String, wordType: WordType, gender: Gender, isPlural: Bool, naughtyLevel: NaughtyLevel) {
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
             let newTextEntity = TextEntity(context: context)
@@ -76,14 +108,14 @@ class DBUtility {
             (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
         }
     }
-
+    
     class func removeTextEntity(textEntity: TextEntity) {
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
             context.delete(textEntity)
             (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
         }
     }
-
+    
     class func deleteAllTextEntities(){
         var words: [TextEntity] = []
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
@@ -94,7 +126,7 @@ class DBUtility {
         }
         (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
     }
-
+    
     class func seedData() {
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
             if try! context.fetch(TextEntity.fetchRequest()).count > 0 {
@@ -196,7 +228,16 @@ class DBUtility {
             }
             
         } catch {
-        print(error)
+            print(error)
         }
+    }
+    
+    class func registerDefaultUserDefaults() {
+        UserDefaults.standard.register(defaults: [
+            "SoundActive": false,
+            "NaughtyLevel": 0.5,
+            "VoiceId": "",
+            "VoiceSpeed": 0.5
+        ])
     }
 }

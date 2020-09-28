@@ -14,8 +14,8 @@
             filePath = "The Love Game/AppDelegate.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "persistentContainer"
             landmarkType = "24">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "The Love Game/Views/LoveGame/LoveGameViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "navigateToSettings()"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,10 +46,74 @@
             filePath = "The Love Game/Views/LoveGame/LoveGameViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "navigateToSettings()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF3D5C7B-8EB0-4962-9328-E5B0893A652D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "The Love Game/Views/Settings/SettingsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
+            landmarkName = "handleVoiceChange(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB925558-7C3A-4E27-803E-CEEAF0482C43"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "The Love Game/Views/Settings/SettingsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "getVoiceSetupCell()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CB925558-7C3A-4E27-803E-CEEAF0482C43 - d463b6c8a94ee84f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "The_Love_Game.SettingsTableViewController.(getVoiceSetupCell in _E1FE21B73816664029E5BA442C7DD055)() -&gt; __C.UITableViewCell"
+                  moduleName = "The Love Game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kevin.lusignolo/Repos/The%20Love%20Game/The%20Love%20Game/Views/Settings/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "957">
+               </Location>
+               <Location
+                  uuid = "CB925558-7C3A-4E27-803E-CEEAF0482C43 - 211d75536d5d6b92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.AVSpeechSynthesisVoice) -&gt; Swift.Bool in The_Love_Game.SettingsTableViewController.(getVoiceSetupCell in _E1FE21B73816664029E5BA442C7DD055)() -&gt; __C.UITableViewCell"
+                  moduleName = "The Love Game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kevin.lusignolo/Repos/The%20Love%20Game/The%20Love%20Game/Views/Settings/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "34">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

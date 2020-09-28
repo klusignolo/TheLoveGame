@@ -11,31 +11,72 @@ import Foundation
 
 class LoveWordsTableViewController: UITableViewController {
     var loveWordsList: [TextEntity] = []
+    var wordType: WordType?
     
-    @IBOutlet var textEntityTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        loveWordsList = DBUtility.getAllTextEntities()
+        tableView.register(UINib(nibName: TextEntityTableViewCell.nibName(), bundle: nil), forCellReuseIdentifier: TextEntityTableViewCell.reuseIdentifier())
+        loadWordList()
+    }
+    
+    private func loadWordList() {
+        if let type = wordType {
+            loveWordsList = DBUtility.getAllTextEntities()
+                .filter { $0.type == type.rawValue }
+                .sorted(by: {
+                    if $0.naughtyLevel == $1.naughtyLevel {
+                        return $0.text! < $1.text!
+                    } else {
+                        return $0.naughtyLevel < $1.naughtyLevel
+                    }
+                })
+            setTitle(type)
+        }
+    }
+    
+    private func setTitle(_ type: WordType) {
+        var titleText = ""
+        switch type {
+        case .Action:
+            titleText = "Actions"
+        case .Adverb:
+            titleText = "Adverbs"
+            break
+        case .Adjective:
+            titleText = "Adjectives"
+            break
+        case .Beginning:
+            titleText = "Beginnings"
+            break
+        case .Interjection:
+            titleText = "Interjections"
+            break
+        case .Part:
+            titleText = "Parts"
+            break
+        case .Pronoun:
+            titleText = "Pronouns"
+            break
+        case .Punctuation:
+            titleText = "Punctuation"
+        break
+        }
+        self.title = titleText
     }
 
-    // MARK: - Table view data source
-
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        // #warning Incomplete implementation, return the number of sections
-//        return 0
-//    }
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return loveWordsList.count
     }
 
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 60.0
+    }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let textEntityCell = tableView.dequeueReusableCell(withIdentifier: "textEntityCell", for: indexPath) as? TextEntityTableViewCell else { return UITableViewCell() }
         let textEntity = loveWordsList[indexPath.row]
+            let textEntityCell = tableView.dequeueReusableCell(withIdentifier: TextEntityTableViewCell.reuseIdentifier()) as! TextEntityTableViewCell
         textEntityCell.wordLabel.text = textEntity.text
-
-        return textEntityCell
+        textEntityCell.naughtyLevelLabel.text = "Naughty Level: \(textEntity.naughtyLevel)"
+            return textEntityCell
     }
 }
