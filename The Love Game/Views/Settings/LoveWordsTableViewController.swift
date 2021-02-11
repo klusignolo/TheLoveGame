@@ -72,11 +72,23 @@ class LoveWordsTableViewController: UITableViewController {
         return 60.0
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "TextEntitySegue", sender: loveWordsList[indexPath.row])
+    }
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let textEntity = loveWordsList[indexPath.row]
             let textEntityCell = tableView.dequeueReusableCell(withIdentifier: TextEntityTableViewCell.reuseIdentifier()) as! TextEntityTableViewCell
         textEntityCell.wordLabel.text = textEntity.text
         textEntityCell.naughtyLevelLabel.text = "Naughty Level: \(textEntity.naughtyLevel)"
             return textEntityCell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "TextEntitySegue" {
+            if let textEntityVC =  segue.destination as? TextEntityViewController {
+                textEntityVC.textEntity = sender as? TextEntity
+            }
+        }
     }
 }

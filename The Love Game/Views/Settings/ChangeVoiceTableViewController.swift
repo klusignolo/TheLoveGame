@@ -15,7 +15,7 @@ protocol VoiceChangedDelegate: class {
 }
 
 class ChangeVoiceTableViewController: UITableViewController {
-    var voices: [AVSpeechSynthesisVoice] = AVSpeechSynthesisVoice.speechVoices().sorted(by: { $0.name < $1.name })
+    var voices: [AVSpeechSynthesisVoice] = AVSpeechSynthesisVoice.speechVoices().sorted(by: { $0.name > $1.name })
     weak var delegate: VoiceChangedDelegate?
     let currentVoiceId = DBUtility.getVoiceId()
     
@@ -31,9 +31,9 @@ class ChangeVoiceTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let voice = voices[indexPath.row]
         let voiceCell = tableView.dequeueReusableCell(withIdentifier: LoveSettingTableViewCell.reuseIdentifier()) as! LoveSettingTableViewCell
-        let voiceName = voice.name == "" ? "None" : voice.name
+        let voiceName = voice.name == "" ? "" : "\(voice.name) - "
         let voiceLang = voice.language
-        let voiceText = "\(voiceName) - \(voiceLang)"
+        let voiceText = "\(voiceName)Language: \(voiceLang)"
         voiceCell.leftLabel.text = voiceText
         if voice.identifier == currentVoiceId {
             voiceCell.accessoryType = .checkmark

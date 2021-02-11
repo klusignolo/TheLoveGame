@@ -1,14 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hx4-6E-Mep">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Launch Screen View Controller-->
+        <scene sceneID="I1F-et-E1x">
+            <objects>
+                <viewController id="hx4-6E-Mep" customClass="LaunchScreenViewController" customModule="The_Love_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FXa-28-6Mj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oMZ-tF-vei">
+                                <rect key="frame" x="132" y="374.5" width="150" height="147.5"/>
+                                <color key="tintColor" red="0.82676894430000003" green="0.14306577640000001" blue="0.26192861620000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="iqR-zP-TPG"/>
+                                    <constraint firstAttribute="height" constant="150" id="yGo-WM-Wke"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8uJ-B3-l5g">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="358.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Love Game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="43" translatesAutoresizingMaskIntoConstraints="NO" id="lr8-VG-1oY">
+                                        <rect key="frame" x="20" y="257" width="374" height="101.5"/>
+                                        <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="87"/>
+                                        <color key="textColor" name="LovePrimaryText"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="LovePink"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="lr8-VG-1oY" secondAttribute="bottom" id="4eu-th-wIy"/>
+                                    <constraint firstAttribute="trailing" secondItem="lr8-VG-1oY" secondAttribute="trailing" constant="20" id="AiX-cg-Tr0"/>
+                                    <constraint firstItem="lr8-VG-1oY" firstAttribute="leading" secondItem="8uJ-B3-l5g" secondAttribute="leading" constant="20" id="DJB-yB-2sf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ktj-WE-dZs"/>
+                        <color key="backgroundColor" name="LovePink"/>
+                        <constraints>
+                            <constraint firstItem="oMZ-tF-vei" firstAttribute="centerY" secondItem="FXa-28-6Mj" secondAttribute="centerY" id="FUq-yf-dAR"/>
+                            <constraint firstItem="8uJ-B3-l5g" firstAttribute="trailing" secondItem="ktj-WE-dZs" secondAttribute="trailing" id="NwG-0a-8tz"/>
+                            <constraint firstItem="oMZ-tF-vei" firstAttribute="centerX" secondItem="FXa-28-6Mj" secondAttribute="centerX" id="ULd-K8-oQl"/>
+                            <constraint firstItem="8uJ-B3-l5g" firstAttribute="top" secondItem="FXa-28-6Mj" secondAttribute="top" id="Va9-p4-zM8"/>
+                            <constraint firstItem="8uJ-B3-l5g" firstAttribute="leading" secondItem="ktj-WE-dZs" secondAttribute="leading" id="h1B-Pm-ni7"/>
+                            <constraint firstItem="8uJ-B3-l5g" firstAttribute="height" secondItem="FXa-28-6Mj" secondAttribute="height" multiplier="0.400112" id="mSa-BG-PiD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="heartIcon" destination="oMZ-tF-vei" id="cAX-Fp-WFq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QGX-Pk-ePb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-20" y="25"/>
+        </scene>
         <!--Love Game View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -158,10 +210,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EcD-j1-xgk">
-                                <rect key="frame" x="185" y="360.5" width="24" height="45"/>
+                                <rect key="frame" x="133" y="315.5" width="128" height="90"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <color key="tintColor" name="LoveSecondaryText"/>
-                                <state key="normal" image="button:EcD-j1-xgk:image" catalog="system">
+                                <state key="normal" image="button:EcD-j1-xgk:image">
                                     <color key="titleColor" name="LoveSecondaryText"/>
                                     <color key="titleShadowColor" red="1" green="0.73800093690000002" blue="0.78930242699999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -260,7 +312,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="button:EcD-j1-xgk:image" catalog="system" width="128" height="90">
+        <image name="button:EcD-j1-xgk:image" width="128" height="90">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05T
 S2V5ZWRBcmNoaXZlctEICVRyb290gAGvEBELDBscIRkmKisyNThCSktPUlUkbnVsbNcNDg8QERITFBUW
@@ -12701,6 +12753,7 @@ C2EYAAthIAALYSMAC2EoAAthMAAAAAAAAAQBAAAAAAAAAFUAAAAAAAAAAAAAAAAAC2EzA
 </mutableData>
         </image>
         <image name="gear" catalog="system" width="128" height="119"/>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
         <namedColor name="HighlightPink">
             <color red="1" green="0.10980392156862745" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

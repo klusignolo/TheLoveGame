@@ -309,7 +309,7 @@
     {
       "text": "Balls",
       "naughtyLevel": "3",
-      "plural": true,
+      "plural": false,
       "gender": 0
     },
     {

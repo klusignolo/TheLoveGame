@@ -52,7 +52,8 @@ class SettingsTableViewController: UITableViewController {
     
     private func getWordsSetupCell() -> UITableViewCell {
         let loveCell = tableView.dequeueReusableCell(withIdentifier: LoveSettingTableViewCell.reuseIdentifier()) as! LoveSettingTableViewCell
-        loveCell.leftLabel.text = "Set Up Words"
+        loveCell.leftLabel.text = "Set Up Words (coming soon)"
+        loveCell.accessoryType = .none
         return loveCell
     }
     
@@ -75,9 +76,9 @@ class SettingsTableViewController: UITableViewController {
         let loveCell = tableView.dequeueReusableCell(withIdentifier: LoveSettingTableViewCell.reuseIdentifier()) as! LoveSettingTableViewCell
         print(currentVoiceId)
         let voice = AVSpeechSynthesisVoice.speechVoices().filter { $0.identifier == currentVoiceId }.first!
-        let voiceName = voice.name == "" ? "None" : voice.name
-        let voiceLang = voice.language == "" ? "" : " - \(voice.language)"
-        let voiceText = "\(voiceName)\(voiceLang)"
+        let voiceName = voice.name == "" ? "" : "\(voice.name) - "
+        let voiceLang = voice.language
+        let voiceText = "\(voiceName)Language: \(voiceLang)"
         loveCell.leftLabel.text = "Change Voice (\(voiceText))"
         return loveCell
     }
@@ -181,7 +182,8 @@ class SettingsTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath {
         case wordsSetupIndexPath:
-            performSegue(withIdentifier: setupWordsSegueIdentifier, sender: nil)
+            // TODO: This shit
+            // performSegue(withIdentifier: setupWordsSegueIdentifier, sender: nil)
             break
         case sentenceSetupIndexPath:
             break

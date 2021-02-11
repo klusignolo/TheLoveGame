@@ -109,6 +109,17 @@ class DBUtility {
         }
     }
     
+    class func updateTextEntity(_ textEntity: TextEntity) {
+        var entities: [TextEntity] = []
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            try? entities = context.fetch(TextEntity.fetchRequest())
+            if let entityIndex = entities.firstIndex(of: textEntity) {
+                entities[entityIndex] = textEntity
+                try? context.save()
+            }
+        }
+    }
+    
     class func removeTextEntity(textEntity: TextEntity) {
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
             context.delete(textEntity)

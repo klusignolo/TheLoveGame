@@ -30,6 +30,7 @@
 		AE9804E8251ED4E5006360CA /* LoveSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9804E6251ED4E5006360CA /* LoveSwitchTableViewCell.swift */; };
 		AE9804E9251ED4E5006360CA /* LoveSwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9804E7251ED4E5006360CA /* LoveSwitchTableViewCell.xib */; };
 		AE9804EC251EDEE0006360CA /* ChangeVoiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9804EB251EDEE0006360CA /* ChangeVoiceTableViewController.swift */; };
+		AE9A8C2D2543B10300DC94D4 /* TextEntityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9A8C2C2543B10300DC94D4 /* TextEntityViewController.swift */; };
 		AEB4C71C252178790001714A /* LoveSliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB4C71A252178790001714A /* LoveSliderTableViewCell.swift */; };
 		AEB4C71D252178790001714A /* LoveSliderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB4C71B252178790001714A /* LoveSliderTableViewCell.xib */; };
 		AEB4C72125217C010001714A /* TextEntityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB4C71F25217C010001714A /* TextEntityTableViewCell.swift */; };
@@ -40,6 +41,7 @@
 		AEBE64FC24F7F409007B9E98 /* Words.json in Resources */ = {isa = PBXBuildFile; fileRef = AEBE64FB24F7F409007B9E98 /* Words.json */; };
 		AEBE650324F805F2007B9E98 /* LoveWordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE650224F805F2007B9E98 /* LoveWordsTableViewController.swift */; };
 		AEBE650524F81B11007B9E98 /* SettingsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE650424F81B11007B9E98 /* SettingsNavigationController.swift */; };
+		AED7B17A2552F18D0065C412 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED7B1792552F18D0065C412 /* LaunchScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,7 @@
 		AE9804E6251ED4E5006360CA /* LoveSwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoveSwitchTableViewCell.swift; path = "The Love Game/Views/Settings/Cells/LoveSwitchTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		AE9804E7251ED4E5006360CA /* LoveSwitchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoveSwitchTableViewCell.xib; path = "The Love Game/Views/Settings/Cells/LoveSwitchTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
 		AE9804EB251EDEE0006360CA /* ChangeVoiceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChangeVoiceTableViewController.swift; path = "The Love Game/Views/Settings/ChangeVoiceTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		AE9A8C2C2543B10300DC94D4 /* TextEntityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEntityViewController.swift; sourceTree = "<group>"; };
 		AEB4C71A252178790001714A /* LoveSliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveSliderTableViewCell.swift; sourceTree = "<group>"; };
 		AEB4C71B252178790001714A /* LoveSliderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoveSliderTableViewCell.xib; sourceTree = "<group>"; };
 		AEB4C71F25217C010001714A /* TextEntityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEntityTableViewCell.swift; sourceTree = "<group>"; };
@@ -78,6 +81,7 @@
 		AEBE64FD24F7F858007B9E98 /* The_Love_Game 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "The_Love_Game 2.xcdatamodel"; sourceTree = "<group>"; };
 		AEBE650224F805F2007B9E98 /* LoveWordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoveWordsTableViewController.swift; path = "The Love Game/Views/Settings/LoveWordsTableViewController.swift"; sourceTree = SOURCE_ROOT; };
 		AEBE650424F81B11007B9E98 /* SettingsNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsNavigationController.swift; path = "The Love Game/Views/Settings/SettingsNavigationController.swift"; sourceTree = SOURCE_ROOT; };
+		AED7B1792552F18D0065C412 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +184,8 @@
 				AE3A125924F5E4E400D80E01 /* LaunchScreen.storyboard */,
 				AE1FA7C92516F76D008CB9D9 /* Settings */,
 				AE1FA7C82516F765008CB9D9 /* LoveGame */,
+				AE9A8C2C2543B10300DC94D4 /* TextEntityViewController.swift */,
+				AED7B1792552F18D0065C412 /* LaunchScreenViewController.swift */,
 			);
 			name = Views;
 			path = "The Love Game/Views";
@@ -314,6 +320,7 @@
 			files = (
 				AE3A125024F5E4E300D80E01 /* LoveGameViewController.swift in Sources */,
 				AEBE64F624F6F052007B9E98 /* LoveController.swift in Sources */,
+				AE9A8C2D2543B10300DC94D4 /* TextEntityViewController.swift in Sources */,
 				AE0FDDCB250F13F0002D5AEA /* PartOfSpeech.swift in Sources */,
 				AE0FDDC1250EF882002D5AEA /* SexySentenceViewController.swift in Sources */,
 				AE3A125624F5E4E300D80E01 /* The_Love_Game.xcdatamodeld in Sources */,
@@ -329,6 +336,7 @@
 				AEBE64F824F6F072007B9E98 /* DBUtility.swift in Sources */,
 				AE1FA7C12516EEC3008CB9D9 /* SettingsTableViewController.swift in Sources */,
 				AE3A124E24F5E4E300D80E01 /* SceneDelegate.swift in Sources */,
+				AED7B17A2552F18D0065C412 /* LaunchScreenViewController.swift in Sources */,
 				AE1FA7CD2516F916008CB9D9 /* UITextViewExtensions.swift in Sources */,
 				AE0FDDC9250F13E4002D5AEA /* Sentence.swift in Sources */,
 				AE0FDDBF250EF876002D5AEA /* FuzzyDiceViewController.swift in Sources */,
@@ -483,6 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NN8AM8B87F;
 				INFOPLIST_FILE = "The Love Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -501,6 +510,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NN8AM8B87F;
 				INFOPLIST_FILE = "The Love Game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
